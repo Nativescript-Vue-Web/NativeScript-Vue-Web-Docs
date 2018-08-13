@@ -1,0 +1,99 @@
+<div class="sidebar">
+  <div class="sidebar-inner-index">
+    <ul class="main-menu">
+      <%- partial('partials/main_menu', {context: 'sidebar'}) %>
+    </ul>
+  </div>
+</div>
+
+<div id="hero">
+  <div class="inner">
+    <div class="left">
+      <img class="hero-logo" src="<%- url_for("/images/logo.png") %>" alt="vue logo">
+    </div>
+    <div class="right">
+      <h2 class="vue">Nativescript Vue Web</h2>
+      <h1>
+        One Code<br>Many Platforms
+      </h1>
+      <p>
+        <a class="button white" href="<%- url_for("/v1/guide/") %>">GET STARTED</a>
+        <a class="button gray has-icon" href="https://github.com/Nativescript-Vue-Web/Nativescript-Vue-Web" target="_blank">
+          <%- partial('icons/github-dark') %>
+          GITHUB</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="highlights">
+  <div class="inner">
+    <div class="point">
+      <h2>Approachable</h2>
+      <p>Already know Vue.js? Read the guide and start building things for mobile and web with same code!</p>
+    </div>
+
+    <div class="point">
+      <h2>Performant</h2>
+      <p>
+        10KB min+gzip Runtime<br>
+        Minimal Optimization Efforts
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="sponsors">
+  <div class="inner">
+    <%- partial('partials/sponsors') %>
+  </div>
+</div>
+
+<div id="footer">
+  <p>
+    <a class="social-icon" href="https://github.com/Nativescript-Vue-Web/Nativescript-Vue-Web" target="_blank">
+      <%- partial('icons/github') %>
+    </a>
+    <!--<a class="social-icon" href="https://twitter.com/vuejs" target="_blank">
+      <%- partial('icons/twitter') %>
+    </a>-->
+  </p>
+  <p>Released under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a><br>
+    Copyright &copy; 2014-<%- new Date().getFullYear() %></p>
+</div>s
+
+<script>
+  (function () {
+    var topScrolled = false
+    var sponsors = document.getElementById('sponsors')
+    var sponsorTop = sponsors.offsetTop
+    var sponsorActive = false
+
+    window.addEventListener('resize', function () {
+      sponsorTop = sponsors.offsetTop
+    })
+
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 165 && !topScrolled) {
+        topScrolled = true
+        document.getElementById('mobile-bar').classList.remove('top')
+      }
+      else if (window.pageYOffset <= 165 && topScrolled) {
+        topScrolled = false
+        document.getElementById('mobile-bar').classList.add('top')
+      }
+      if (window.pageYOffset > sponsorTop - 100) {
+        if (!sponsorActive) {
+          sponsorActive = true
+          sponsors.classList.add('active')
+        }
+      }
+      else {
+        if (sponsorActive) {
+          sponsorActive = false
+          sponsors.classList.remove('active')
+        }
+      }
+    })
+  })()
+</script>
