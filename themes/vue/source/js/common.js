@@ -96,7 +96,7 @@
   }
 
   function initApiSpecLinks() {
-    var apiContent = document.querySelector(".content.api");
+    var apiContent = document.querySelector(".content.elements");
     if (apiContent) {
       var apiTitles = [].slice.call(apiContent.querySelectorAll("h3"));
       apiTitles.forEach(function(titleNode) {
@@ -320,7 +320,7 @@
     var currentPageAnchor = sidebar.querySelector(".sidebar-link.current");
     var contentClasses = document.querySelector(".content").classList;
     var isAPIOrStyleGuide =
-      contentClasses.contains("api") || contentClasses.contains("style-guide");
+      contentClasses.contains("elements") || contentClasses.contains("style-guide");
     if (currentPageAnchor || isAPIOrStyleGuide) {
       var allHeaders = [];
       var sectionContainer;

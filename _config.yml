@@ -136,7 +136,7 @@ feed:
   limit: 20
 
 alias:
-  api/index.html: v1/api/index.html
+  elements/index.html: v1/elements/index.html
   guide/class-and-style.html: v1/guide/class-and-style.html
   guide/comparison.html: v1/guide/comparison.html
   guide/components.html: v1/guide/components.html
