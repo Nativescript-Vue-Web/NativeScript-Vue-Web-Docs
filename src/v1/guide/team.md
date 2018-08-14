@@ -272,6 +272,30 @@ order: 803
           org: 'Nativescript Vue Web'
         }
     },
+    {
+      name: 'Özer Çevikaslan',
+      title: 'Developer',
+      city: 'Izmir, Turkey',
+      languages: ['tr', 'en'],
+      github: 'ozercevikaslan',
+      twitter: 'ozercevikaslan',
+      work: {
+        role: 'Developer',
+        org: 'Nativescript Vue Web',
+      },
+    },
+    {
+      name: 'Gizem Ulubayam',
+      title: 'Developer',
+      city: 'Izmir, Turkey',
+      languages: ['tr', 'en'],
+      github: 'ulubayam',
+      twitter: 'gizulubym',
+      work: {
+        role: 'Developer',
+        org: 'Nativescript Vue Web',
+      },
+    },
   ])
 
   var partners = [
