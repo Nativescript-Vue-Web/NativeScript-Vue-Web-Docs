@@ -57,10 +57,52 @@ flexWrapBefore | Boolean | `false` | ✔ | ✔
 ## Components
 ### ActivityIndicator
 ### Button
+
+> This is an overview of the most common usage of Button. 
+
+```html
+<Button text="Button" @tap="onButtonTap" />
+```
+`Button` is a UI component that displays a button which reacts to a user gesture.
+
+#### Props
+Name | Type | Default | Web | Mobile 
+------------ | ------------- | ------------- | ------------- | -------------
+text | String | | ✔ | ✔
+textWrap | Boolean | `false` | ✔ | ✔
+
+#### Events
+Name | Web | Mobile 
+------------ | ------------- | -------------
+tap | ✔ | ✔
+ 
+#### References
+> For more information about the available properties, methods, or events head over to the complete [Native Vue API Documentation](https://nativescript-vue.org/en/docs/elements/components/button/)
+> or [Native Reference](https://docs.nativescript.org/api-reference/classes/_ui_button_.button) 
+
+
 ### DatePicker
 ### HtmlView
 ### Image
 ### Label
+
+> This is an overview of the most common usage of Label. 
+
+```html
+<Label text="Label" />
+```
+`Label` is a UI component that displays read-only text.
+
+#### Props
+Name | Type | Default | Web | Mobile 
+------------ | ------------- | ------------- | ------------- | -------------
+text | String | | ✔ | ✔
+textWrap | Boolean | `false` | ✔ | ✔
+
+#### References
+> For more information about the available properties, methods, or events head over to the complete [Native Vue API Documentation](https://nativescript-vue.org/en/docs/elements/components/label/)
+> or [Native Reference](https://docs.nativescript.org/api-reference/classes/_ui_label_.label) 
+
 ### ListPicker
 ### ListView
 ### Progress
