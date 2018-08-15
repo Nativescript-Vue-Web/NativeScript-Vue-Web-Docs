@@ -42,8 +42,8 @@ alignSelf | String | `stretch` | ✔ | ✔
 flexWrapBefore | Boolean | `false` | ✔ | ✔
 
 #### References
-> For more information about the available properties, methods, or events head over to the complete [Native Vue API Documentation](https://nativescript-vue.org/en/docs/elements/layouts/flexbox-layout/)
-> or [Native Reference](https://docs.nativescript.org/api-reference/modules/_ui_layouts_flexbox_layout_) 
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/layouts/flexbox-layout/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_layouts_flexbox_layout_) 
 
 ### GridLayout
 ### StackLayout
@@ -109,8 +109,8 @@ focus | ✔ | ✔
 blur | ✔ | ✔  
 
 #### References
-> For more information about the available properties, methods, or events head over to the complete [Native Vue API Documentation](https://nativescript-vue.org/en/docs/elements/components/text-field/)
-> or [Native Reference](https://docs.nativescript.org/api-reference/modules/_ui_text_field_) 
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/text-field/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_text_field_) 
 
 
 ### TextView
