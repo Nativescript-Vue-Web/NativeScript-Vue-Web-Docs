@@ -137,7 +137,10 @@ Name | Type | Default | Web | Mobile
 text | String | | ✔ | ✔
 textWrap | Boolean | `false` | ✔ | ✔
 
-
+#### Events
+Name | Web | Mobile 
+------------ | ------------- | -------------
+tap | ✔ | ✔
  
 #### References
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/button/)
