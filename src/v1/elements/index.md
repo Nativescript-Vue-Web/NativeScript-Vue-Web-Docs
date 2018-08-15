@@ -7,6 +7,44 @@ type: elements
 ### AbsoluteLayout
 ### DockLayout
 ### FlexboxLayout
+
+> This is an overview of the most common usage of FlexboxLayout.
+
+```html
+<FlexboxLayout backgroundColor="#3c495e">
+  <Label text="first" width="70" backgroundColor="#43b883"/>
+  <Label text="second" width="70" backgroundColor="#1c6b48"/>
+  <Label text="third" width="70" backgroundColor="#289062"/>
+</FlexboxLayout>
+```
+
+`FlexboxLayout` helps to adjust child components both horizontally and vertically.
+
+#### Props
+Name | Type | Default | Web | Mobile
+------------ | ------------- | ------------- | ------------- | -------------
+flexDirection | String | `row` | ✔ | ✔
+flexWrap | String | `nowrap` | ✔ | ✔
+justifyContent | String | `flex-start` | ✔ | ✔
+alignItems | String | `stretch` | ✔ | ✔
+alignContent | String | `stretch` | ✔ | ✔
+
+#### Additional Children Props
+> When an element is a direct child of <FlexboxLayout>, you can work with the following additional properties.
+
+
+Name | Type | Default | Web | Mobile
+------------ | ------------- | ------------- | ------------- | -------------
+order | Number | | ✔ | ✔
+flexGrow | Number | | ✔ | ✔
+flexShrink | Number | `1` | ✔ | ✔
+alignSelf | String | `stretch` | ✔ | ✔
+flexWrapBefore | Boolean | `false` | ✔ | ✔
+
+#### References
+> For more information about the available properties, methods, or events head over to the complete [Native Vue API Documentation](https://nativescript-vue.org/en/docs/elements/layouts/flexbox-layout/)
+> or [Native Reference](https://docs.nativescript.org/api-reference/modules/_ui_layouts_flexbox_layout_) 
+
 ### GridLayout
 ### StackLayout
 ### WrapLayout
