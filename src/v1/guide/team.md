@@ -247,67 +247,83 @@ order: 803
     tr: 'Türkçe'
   }
 
-  var team = shuffle([
-  {
-          name: 'Yiğit Erol',
-          title: 'Creator',
-          city: 'London, UK',
-          languages: ['tr', 'en'],
-          github: 'yerol',
-          twitter: 'yerol',
-          work: {
-            role: 'Creator',
-            org: 'Nativescript Vue Web'
-          }
-      },
-    {
-        name: 'Tümay Çeber',
-        title: 'Dictator',
-        city: 'Ankara, Turkey',
-        languages: ['tr', 'en'],
-        github: 'brendtumi',
-        twitter: 'tumayceber',
-        work: {
-          role: 'Developer',
-          org: 'Nativescript Vue Web'
-        }
-    },
-    {
-      name: 'Özer Çevikaslan',
-      title: 'Developer',
-      city: 'Izmir, Turkey',
-      languages: ['tr', 'en'],
-      github: 'ozercevikaslan',
-      twitter: 'ozercevikaslan',
-      work: {
-        role: 'Developer',
-        org: 'Nativescript Vue Web',
-      },
-    },
-    {
-      name: 'Gizem Ulubayam',
-      title: 'Developer',
-      city: 'Izmir, Turkey',
-      languages: ['tr', 'en'],
-      github: 'ulubayam',
-      twitter: 'gizulubym',
-      work: {
-        role: 'Developer',
-        org: 'Nativescript Vue Web',
-      },
-    {
-      name: 'Muammer YILMAZ',
-      title: 'Developer',
-      city: 'Ankara, Turkey',
-      languages: ['tr', 'en'],
-      github: 'mylmz10',
-      twitter: 'mylmz10',
-      work: {
-        role: 'Developer',
-        org: 'Nativescript Vue Web'
-      }
-    },
-  ])
+  var team = [
+               {
+                 "name": "Yiğit Erol",
+                 "title": "Creator",
+                 "city": "London, UK",
+                 "languages": [
+                   "tr",
+                   "en"
+                 ],
+                 "github": "yerol",
+                 "twitter": "yerol",
+                 "work": {
+                   "role": "Creator",
+                   "org": "Nativescript Vue Web"
+                 }
+               },
+               {
+                 "name": "Tümay Çeber",
+                 "title": "Dictator",
+                 "city": "Ankara, Turkey",
+                 "languages": [
+                   "tr",
+                   "en"
+                 ],
+                 "github": "brendtumi",
+                 "twitter": "tumayceber",
+                 "work": {
+                   "role": "Developer",
+                   "org": "Nativescript Vue Web"
+                 }
+               },
+               {
+                 "name": "Özer Çevikaslan",
+                 "title": "Developer",
+                 "city": "Izmir, Turkey",
+                 "languages": [
+                   "tr",
+                   "en"
+                 ],
+                 "github": "ozercevikaslan",
+                 "twitter": "ozercevikaslan",
+                 "work": {
+                   "role": "Developer",
+                   "org": "Nativescript Vue Web"
+                 }
+               },
+               {
+                 "name": "Gizem Ulubayam",
+                 "title": "Developer",
+                 "city": "Izmir, Turkey",
+                 "languages": [
+                   "tr",
+                   "en"
+                 ],
+                 "github": "ulubayam",
+                 "twitter": "gizulubym",
+                 "work": {
+                   "role": "Developer",
+                   "org": "Nativescript Vue Web"
+                 }
+               },
+               {
+                 "name": "Muammer YILMAZ",
+                 "title": "Developer",
+                 "city": "Ankara, Turkey",
+                 "languages": [
+                   "tr",
+                   "en"
+                 ],
+                 "github": "mylmz10",
+                 "twitter": "mylmz10",
+                 "work": {
+                   "role": "Developer",
+                   "org": "Nativescript Vue Web"
+                 }
+               }
+             ];
 
   var partners = [
     
@@ -432,6 +448,7 @@ order: 803
       konami: {
         position: 0,
         code: [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
+        // code: [↑, ↑, ↓, ↓, ←, →, ←, →, b, a]
       }
     },
     computed: {
