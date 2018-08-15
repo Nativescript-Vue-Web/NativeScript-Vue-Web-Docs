@@ -77,8 +77,8 @@ Name | Web | Mobile
 tap | ✔ | ✔
  
 #### References
-> For more information about the available properties, methods, or events head over to the complete [Native Vue API Documentation](https://nativescript-vue.org/en/docs/elements/components/button/)
-> or [Native Reference](https://docs.nativescript.org/api-reference/classes/_ui_button_.button) 
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/button/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_button_.button) 
 
 
 ### DatePicker
@@ -100,8 +100,8 @@ text | String | | ✔ | ✔
 textWrap | Boolean | `false` | ✔ | ✔
 
 #### References
-> For more information about the available properties, methods, or events head over to the complete [Native Vue API Documentation](https://nativescript-vue.org/en/docs/elements/components/label/)
-> or [Native Reference](https://docs.nativescript.org/api-reference/classes/_ui_label_.label) 
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/label/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_label_.label) 
 
 ### ListPicker
 ### ListView
