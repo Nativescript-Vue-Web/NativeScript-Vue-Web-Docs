@@ -295,6 +295,17 @@ order: 803
         role: 'Developer',
         org: 'Nativescript Vue Web',
       },
+    {
+      name: 'Muammer YILMAZ',
+      title: 'Developer',
+      city: 'Ankara, Turkey',
+      languages: ['tr', 'en'],
+      github: 'mylmz10',
+      twitter: 'mylmz10',
+      work: {
+        role: 'Developer',
+        org: 'Nativescript Vue Web'
+      }
     },
   ])
 
