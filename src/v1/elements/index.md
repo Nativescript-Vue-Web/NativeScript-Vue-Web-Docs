@@ -110,8 +110,8 @@ orientation | `vertical`, `horizontal` | `vertical` | ✔ | ✔
 None
 
 #### References
-> https://nativescript-vue.org/en/docs/elements/layouts/stack-layout/
-> https://docs.nativescript.org/api-reference/modules/_ui_layouts_stack_layout_
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/layouts/stack-layout/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_layouts_stack_layout_) 
 
 <iframe src="https://codesandbox.io/embed/9yv6r4ok7y?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
@@ -173,8 +173,9 @@ stretch | `none`, `aspectFill`, `aspectFit`, `fill` | `none` | ✔ | ✔
 loadMode | `async`, `sync` | `async` | ✔ | ✔
 
 #### References
-> https://nativescript-vue.org/en/docs/elements/components/image/
-> https://docs.nativescript.org/api-reference/classes/_ui_image_.image
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/image/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_image_.image) 
 
 <iframe src="https://codesandbox.io/embed/vnxyxz9553?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
@@ -219,8 +220,8 @@ Name | Web | Mobile
 valueChange | ✔ | ✔
 
 #### References
-> https://nativescript-vue.org/en/docs/elements/components/progress/
-> https://docs.nativescript.org/api-reference/classes/_ui_progress_.progress
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/progress/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_progress_.progress) 
 
 <iframe src="https://codesandbox.io/embed/zkm7o31o6x?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
@@ -251,8 +252,8 @@ Name | Web | Mobile
 scroll | ✔ | ✔
 
 #### References
-> https://nativescript-vue.org/en/docs/elements/components/scroll-view/
-> https://docs.nativescript.org/api-reference/classes/_ui_scroll_view_.scrollview
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/scroll-view/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_scroll_view_.scrollview) 
 
 <iframe src="https://codesandbox.io/embed/y3jzz2v5mv?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
