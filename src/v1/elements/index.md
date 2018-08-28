@@ -302,6 +302,8 @@ blur | ✔ | ✔
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/text-field/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_text_field_) 
 
+<iframe src="https://codesandbox.io/embed/l764j9p8pl?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### TextView
 ### TimePicker
 ### WebView
