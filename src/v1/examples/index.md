@@ -6,4 +6,4 @@ order: 0
 
 > Dead simple Markdown editor.
 
-<iframe width="100%" height="500" src="https://jsfiddle.net/chrisvfritz/0dzvcf4d/embedded/result,html,js,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe src="https://codesandbox.io/embed/kox5ymyp3o" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>

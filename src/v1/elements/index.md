@@ -7,7 +7,6 @@ type: elements
 ### AbsoluteLayout
 ### DockLayout
 ### FlexboxLayout
-
 > This is an overview of the most common usage of FlexboxLayout.
 
 ```html
@@ -32,7 +31,6 @@ alignContent | String | `stretch` | ✔ | ✔
 #### Additional Children Props
 > When an element is a direct child of <FlexboxLayout>, you can work with the following additional properties.
 
-
 Name | Type | Default | Web | Mobile
 ------------ | ------------- | ------------- | ------------- | -------------
 order | Number | | ✔ | ✔
@@ -44,6 +42,8 @@ flexWrapBefore | Boolean | `false` | ✔ | ✔
 #### References
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/layouts/flexbox-layout/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_layouts_flexbox_layout_) 
+
+<iframe src="https://codesandbox.io/embed/y7k675mwx9?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 ### GridLayout
 ### StackLayout
@@ -123,7 +123,6 @@ None
 ## Components
 ### ActivityIndicator
 ### Button
-
 > This is an overview of the most common usage of Button. 
 
 ```html
@@ -141,16 +140,16 @@ textWrap | Boolean | `false` | ✔ | ✔
 Name | Web | Mobile 
 ------------ | ------------- | -------------
 tap | ✔ | ✔
- 
+  
 #### References
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/button/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_button_.button) 
 
+<iframe src="https://codesandbox.io/embed/n5y3lym66p?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 ### DatePicker
 ### HtmlView
 ### Image
-
 > This is an overview of the most common usage of Image. 
 
 Displaying an image relative to the app directory
@@ -164,7 +163,6 @@ Displaying an image from a URL
 ```
 
 #### Props
-
 Name | Type | Default | Web | Mobile 
 ------------ | ------------- | ------------- | ------------- | -------------
 src | String | | ✔ | ✔
@@ -176,8 +174,9 @@ loadMode | `async`, `sync` | `async` | ✔ | ✔
 > https://nativescript-vue.org/en/docs/elements/components/image/
 > https://docs.nativescript.org/api-reference/classes/_ui_image_.image
 
-### Label
+<iframe src="https://codesandbox.io/embed/vnxyxz9553?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
+### Label
 > This is an overview of the most common usage of Label. 
 
 ```html
@@ -193,12 +192,13 @@ textWrap | Boolean | `false` | ✔ | ✔
 
 #### References
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/label/)
-> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_label_.label) 
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_label_.label)
+
+<iframe src="https://codesandbox.io/embed/lrn8qy0yv9?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe> 
 
 ### ListPicker
 ### ListView
 ### Progress
-
 > This is an overview of the most common usage of Progress. 
 
 ```html
@@ -206,14 +206,12 @@ textWrap | Boolean | `false` | ✔ | ✔
 ```
 
 #### Props
-
 Name | Type | Default | Web | Mobile 
 ------------ | ------------- | ------------- | ------------- | -------------
 value | Number | 0 | ✔ | ✔
 maxValue | Number | 100 | ✔ | ✔
 
 #### Events
-
 Name | Web | Mobile 
 ------------ | ------------- | -------------
 valueChange | ✔ | ✔
@@ -223,7 +221,6 @@ valueChange | ✔ | ✔
 > https://docs.nativescript.org/api-reference/classes/_ui_progress_.progress
 
 ### ScrollView
-
 > This is an overview of the most common usage of ScrollView. 
 
 ```html
@@ -239,14 +236,12 @@ valueChange | ✔ | ✔
 ```
 
 #### Props
-
 Name | Type | Default | Web | Mobile 
 ------------ | ------------- | ------------- | ------------- | -------------
 orientation | `horizontal `, `vertical` | `vertical` | ✔ | ✔
 scrollBarIndicatorVisible | Boolean | `true` | ✔ | ✘
 
 #### Events
-
 Name | Web | Mobile 
 ------------ | ------------- | -------------
 scroll | ✔ | ✔
@@ -255,6 +250,8 @@ scroll | ✔ | ✔
 > https://nativescript-vue.org/en/docs/elements/components/scroll-view/
 > https://docs.nativescript.org/api-reference/classes/_ui_scroll_view_.scrollview
 
+<iframe src="https://codesandbox.io/embed/y3jzz2v5mv?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### SearchBar
 ### SegmentedBar
 ### Slider
@@ -262,7 +259,6 @@ scroll | ✔ | ✔
 ### TabView
 
 ### TextField
-
 > This is an overview of the most common usage of TextField. 
 
 ```html
@@ -301,7 +297,6 @@ blur | ✔ | ✔
 #### References
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/text-field/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_text_field_) 
-
 
 ### TextView
 ### TimePicker
