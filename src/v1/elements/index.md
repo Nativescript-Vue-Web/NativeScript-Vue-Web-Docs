@@ -274,7 +274,7 @@ scroll | ✔ | ✔
 #### Props
 Name | Type | Default | Web | Mobile 
 ------------ | ------------- | ------------- | ------------- | -------------
-checked | Boolean | false | ✔ | ✔
+checked | Boolean | `false` | ✔ | ✔
 
 #### Events
 Name | Web | Mobile 
@@ -282,8 +282,8 @@ Name | Web | Mobile
 checkedChange | ✔ | ✔
 
 #### References
-> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://docs.nativescript.org/api-reference/classes/_ui_switch_.switch)
-> or [NativeScript Documentation](https://nativescript-vue.org/en/docs/elements/components/switch/)
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/switch/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_switch_.switch)
 
 <iframe src="https://codesandbox.io/embed/p7wyk8xl3x" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
