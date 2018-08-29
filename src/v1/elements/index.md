@@ -271,9 +271,9 @@ scroll | ✔ | ✔
 #### Props
 Name | Type | Default | Web | Mobile 
 ------------ | ------------- | ------------- | ------------- | -------------
-value | Number | 0 | ✔ | ✔
-minValue | Number | 0 | ✔ | ✔
-maxValue | Number | 100 | ✔ | ✔
+value | Number | `0` | ✔ | ✔
+minValue | Number | `0` | ✔ | ✔
+maxValue | Number | `100` | ✔ | ✔
 
 #### Events
 Name | Web | Mobile 
