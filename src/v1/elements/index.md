@@ -259,6 +259,33 @@ scroll | ✔ | ✔
 ### SearchBar
 ### SegmentedBar
 ### Slider
+> This is an overview of the most common usage of Slider.
+
+```html
+<Slider value="80" @valueChange="onValueChanged" />
+```
+`Slider` provides two-way data binding using v-model.
+```html
+<Slider v-model="value" />
+```
+#### Props
+Name | Type | Default | Web | Mobile 
+------------ | ------------- | ------------- | ------------- | -------------
+value | Number | 0 | ✔ | ✔
+minValue | Number | 0 | ✔ | ✔
+maxValue | Number | 100 | ✔ | ✔
+
+#### Events
+Name | Web | Mobile 
+------------ | ------------- | -------------
+valueChange | ✔ | ✔
+
+#### References
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/slider/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_slider_.slider)
+
+<iframe src="https://codesandbox.io/embed/8l36nz28p8?module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### Switch
 ### TabView
 
@@ -300,7 +327,7 @@ blur | ✔ | ✔
 
 #### References
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/text-field/)
-> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_text_field_) 
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_text_field_)
 
 <iframe src="https://codesandbox.io/embed/l764j9p8pl?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
