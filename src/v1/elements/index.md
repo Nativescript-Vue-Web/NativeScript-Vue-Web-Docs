@@ -116,6 +116,53 @@ None
 <iframe src="https://codesandbox.io/embed/9yv6r4ok7y?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 ### WrapLayout
+`WrapLayout` is a layout container that lets you position items in rows or columns, based on the orientation property. When the space is filled, the container automatically wraps items onto a new row or column.
+> This is an overview of the most common usage of WrapLayout.
+
+> The following example creates a row of equally-sized items. When the row runs out of space, the container wraps the last item on a new row.
+
+```html
+<WrapLayout height="450" width="450" backgroundColor="#3c495e">
+  <Label text="first" class="wrapLayoutItem" backgroundColor="#43b883"/>
+  <Label text="second" class="wrapLayoutItem" backgroundColor="#1c6b48"/>
+  <Label text="third" class="wrapLayoutItem" backgroundColor="#289062"/>
+  <Label text="fourth" class="wrapLayoutItem" backgroundColor="#289062"/>
+</WrapLayout>
+```
+
+> The following example creates a column of equally-sized items. When the row runs out of space, the container wraps the last item on a new column.
+
+```html
+<WrapLayout height="450" width="450" orientation="vertical" backgroundColor="#3c495e">
+  <Label text="first" class="wrapLayoutItem" backgroundColor="#43b883"/>
+  <Label text="second" class="wrapLayoutItem" backgroundColor="#1c6b48"/>
+  <Label text="third" class="wrapLayoutItem" backgroundColor="#289062"/>
+  <Label text="fourth" class="wrapLayoutItem" backgroundColor="#289062"/>
+</WrapLayout>
+```
+
+```css
+.wrapLayoutItem {
+  width: 140px;
+  height: 140px;
+}
+```
+
+#### Props
+Name | Type | Default | Web | Mobile 
+------------ | ------------- | ------------- | ------------- | -------------
+orientation | String | `horizontal` | ✔ | ✔
+itemWidth | Number | `Number.NaN` | X | ✔
+itemHeight | Number | `Number.NaN` | X | ✔
+
+> There are no additional children props.
+
+#### References
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/layouts/wrap-layout/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_layouts_wrap_layout_)
+
+<iframe src="https://codesandbox.io/embed/xmj262j64?module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 
 ## Action-Bars
 ### ActionBar
