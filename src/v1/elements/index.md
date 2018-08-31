@@ -124,6 +124,29 @@ None
 
 ## Components
 ### ActivityIndicator
+> This is an overview of the most common usage of ActivityIndicator.
+
+```html
+<ActivityIndicator busy="true" @busyChange="onBusyChanged" />
+```
+`ActivityIndicator` is a UI component that shows a progress indicator signaling to the user of an operation running in the background.
+
+#### Props
+Name | Type | Default | Web | Mobile 
+------------ | ------------- | ------------- | ------------- | -------------
+busy | boolean | | ✔ | ✔
+
+#### Events
+Name | Web | Mobile 
+------------ | ------------- | -------------
+busyChange | ✔ | ✔
+
+#### References
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/activity-indicator/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_activity_indicator_.activityindicator) 
+
+<iframe src="https://codesandbox.io/embed/l52zmow45q" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### Button
 > This is an overview of the most common usage of Button. 
 
