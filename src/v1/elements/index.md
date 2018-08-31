@@ -308,6 +308,33 @@ scroll | ✔ | ✔
 ### SegmentedBar
 ### Slider
 ### Switch
+> This is an overview of the most common usage of Switch.
+> "Switcher" is being used in the implementation thus, Switch word is a reserved one for VueJs.
+
+```html
+<Switch checked="true" />
+```
+`Switch` provides two-way data binding using v-model.
+```html
+<Switch v-model="itemEnabled" />
+```
+#### Props
+Name | Type | Default | Web | Mobile 
+------------ | ------------- | ------------- | ------------- | -------------
+checked | Boolean | `false` | ✔ | ✔
+
+#### Events
+Name | Web | Mobile 
+------------ | ------------- | -------------
+checkedChange | ✔ | ✔
+
+#### References
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/switch/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_switch_.switch)
+
+<iframe src="https://codesandbox.io/embed/p7wyk8xl3x" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
+
 ### TabView
 
 ### TextField
