@@ -198,6 +198,24 @@ tap | ✔ | ✔
 
 ### DatePicker
 ### HtmlView
+> This is an overview of the most common usage of HtmlView. 
+
+```html
+<HtmlView html="<div><h1>HtmlView</h1></div>" />
+```
+`HtmlView` is a is a UI component that lets you show static HTML content.
+
+#### Props
+Name | Type | Default | Web | Mobile 
+------------ | ------------- | ------------- | ------------- | -------------
+text | String | | ✔ | ✔
+  
+#### References
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/html-view/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_html_view_.htmlview) 
+
+<iframe src="https://codesandbox.io/embed/4ro87o5m0x" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### Image
 > This is an overview of the most common usage of Image. 
 
