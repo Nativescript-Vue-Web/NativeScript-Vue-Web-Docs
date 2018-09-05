@@ -247,6 +247,31 @@ textWrap | Boolean | `false` | ✔ | ✔
 <iframe src="https://codesandbox.io/embed/lrn8qy0yv9?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe> 
 
 ### ListPicker
+> This is an overview of the most common usage of ListPicker. 
+
+```html
+ <ListPicker v-model="selectedIndex" :items="listOfItems" @selectedIndexChange="selectedIndexChanged" />
+```
+`ListPicker` is a UI component that lets the user select a value from a pre-configured list.
+
+#### Props
+Name | Type | Default | Web | Mobile 
+------------ | ------------- | ------------- | ------------- | -------------
+items | Array<String> | | ✔ | ✔
+selectedIndex | Number | | ✔ | ✔
+
+#### Events
+Name | Web | Mobile 
+------------ | ------------- | -------------
+selectedIndexChange | ✔ | ✔
+
+
+#### References
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/list-picker/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_list_picker_.listpicker)
+
+<iframe src="https://codesandbox.io/embed/l9l6o34mvm" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### ListView
 ### Progress
 > This is an overview of the most common usage of Progress. 
