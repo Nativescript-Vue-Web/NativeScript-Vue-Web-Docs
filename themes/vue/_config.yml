@@ -8,7 +8,7 @@ special_sponsors:
     img: nuweb.png
     name: nuweb
 
-platinum_sponsors:
-  - url: https://www.nativescript.org/vue?utm_source=vue-js-org&utm_medium=website&utm_campaign=nativescript-awareness
-    img: nativescript.png
-    name: nativescript
+# platinum_sponsors:
+    #  - url: http://www.nurd.net/
+    #img: nurd-logo.png
+    #name: nurd
