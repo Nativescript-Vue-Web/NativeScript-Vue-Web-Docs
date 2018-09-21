@@ -490,7 +490,82 @@ blur | ✔ | ✔
 
 ## Dialogs
 ### ActionDialog
+> This is an overview of the most common usage of ActionDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for ActionDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#action).
+
+The `action()` method is available globally. You can call it anywhere in your app.
+
+```js
+action("Your message", "Cancel button text", ["Option1", "Option2"])
+  .then(result => {
+    console.log(result);
+});
+```
+<iframe src="https://codesandbox.io/embed/24oz9vqnlp" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### AlertDialog
+> This is an overview of the most common usage of AlertDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for AlertDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#alert).
+
+The `alert()` method shows a message and an OK button. Use it to show information and notifications that do not require an action from the user.
+
+```js
+alert('Your message')
+  .then(() => {
+    console.log("Alert dialog closed.");
+  });
+```
+
+<iframe src="https://codesandbox.io/embed/m8x5q5njx" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### ConfirmDialog
+> This is an overview of the most common usage of ConfirmDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for ConfirmDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#confirm).
+
+The `confirm()` method shows a confirmation message and Cancel and OK buttons.
+
+```js
+confirm('Your message')
+  .then(result => {
+    console.log(result);
+  });
+```
+
+<iframe src="https://codesandbox.io/embed/m7xmj8xnxj" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### LoginDialog
+> This is an overview of the most common usage of LoginDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for LoginDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#login).
+
+The `login()` method shows a dialog where the user can provide login credentials.
+
+```js
+login({
+  title: "Your login title",
+  message: "Your login message",
+  okButtonText: "Your OK button text",
+  cancelButtonText: "Your Cancel button text",
+  userName: "Username field value",
+  password: "Password field value"
+}).then(result => {
+  console.log(`Dialog result: ${result.result}, user: ${result.userName}, pwd: ${result.password}`);
+});
+```
+
+<iframe src="https://codesandbox.io/embed/xzxk3w3l0w" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
+
 ### PromptDialog
+> This is an overview of the most common usage of PromptDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for PromptDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#prompt).
+
+The `prompt()` method shows a dialog with a single-line field for user input.
+
+```js
+prompt({
+  title: "Your dialog title",
+  message: "Your message",
+  okButtonText: "Your OK button text",
+  cancelButtonText: "Your Cancel button text",
+  defaultText: "Suggested user input",
+}).then(result => {
+  console.log(`Dialog result: ${result.result}, text: ${result.text}`)
+});
+```
+
+<iframe src="https://codesandbox.io/embed/oq70yj50q" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
