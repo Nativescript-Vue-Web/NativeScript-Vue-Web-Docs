@@ -646,6 +646,37 @@ timeChange | ✔ | ✔
 <iframe src="https://codesandbox.io/embed/jvpprv63n5" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 ### WebView
+### Frame
+
+> `<Frame>` is a UI component used to display `<Page>` elements.
+
+> Multiple Frames
+
+```html
+<GridLayout columns="*, *">
+  <Frame col="0"/>
+  <Frame col="1"/>
+</GridLayout>
+```
+
+> A frame with a default page
+
+```html
+<Frame>
+  <Page>
+    <ActionBar title="Default Page Title" />
+    <GridLayout>
+      <Label text="Default Page Content" />
+    </GridLayout>
+  </Page>
+</Frame>
+```
+
+#### References
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/frame/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_frame_.frame)
+
+<iframe src="https://codesandbox.io/embed/yjmjyny5jx" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 ## Dialogs
 ### ActionDialog
