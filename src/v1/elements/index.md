@@ -49,8 +49,6 @@ left | Number | | ✔ | ✔
 ### FlexboxLayout
 > This is an overview of the most common usage of FlexboxLayout.
 
-#### A grid-like layout
-
 ```html
 <FlexboxLayout backgroundColor="#3c495e">
   <Label text="first" width="70" backgroundColor="#43b883"/>
