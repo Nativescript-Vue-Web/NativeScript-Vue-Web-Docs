@@ -5,9 +5,51 @@ type: elements
 
 ## Layouts
 ### AbsoluteLayout
+> This is an overview of the most common usage of AbsoluteLayout.
+
+
+#### A grid-like layout
+
+```html
+<AbsoluteLayout backgroundColor="#3c495e">
+  <Label text="10,10" left="10" top="10" width="100" height="100" backgroundColor="#43b883"/>
+  <Label text="120,10" left="120" top="10" width="100" height="100" backgroundColor="#43b883"/>
+  <Label text="10,120" left="10" top="120" width="100" height="100" backgroundColor="#43b883"/>
+  <Label text="120,120" left="120" top="120" width="100" height="100" backgroundColor="#43b883"/>
+</AbsoluteLayout>
+```
+
+#### Overlapping elements
+
+```html
+<AbsoluteLayout backgroundColor="#3c495e">
+  <Label text="10,10" left="10" top="10" width="100" height="100" backgroundColor="#289062"/>
+  <Label text="30,40" left="30" top="40" width="100" height="100" backgroundColor="#43b883"/>
+</AbsoluteLayout>
+```
+
+#### Props
+None
+
+#### Additional Children Props
+> When an element is a direct child of <AbsoluteLayout>, you can work with the following additional properties.
+
+Name | Type | Default | Web | Mobile
+------------ | ------------- | ------------- | ------------- | -------------
+top | Number | | ✔ | ✔
+left | Number | | ✔ | ✔
+
+#### References
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/layouts/absolute-layout/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_layouts_absolute_layout_) 
+
+<iframe src="https://codesandbox.io/embed/lrv8061359?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### DockLayout
 ### FlexboxLayout
 > This is an overview of the most common usage of FlexboxLayout.
+
+#### A grid-like layout
 
 ```html
 <FlexboxLayout backgroundColor="#3c495e">
