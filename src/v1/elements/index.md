@@ -207,6 +207,40 @@ itemHeight | Number | `Number.NaN` | X | ✔
 ## Action-Bars
 ### ActionBar
 ### ActionItem
+
+> The ActionItem component is used to add additional action buttons to the ActionBar.
+
+```html
+<ActionBar title="My App">
+  <ActionItem @tap="onTapShare"
+    ios.systemIcon="9" ios.position="left"
+    android.systemIcon="ic_menu_share" android.position="actionBar" webIcon="fa fa-share" />
+  <ActionItem @tap="onTapDelete"
+    ios.systemIcon="16" ios.position="right"
+    text="delete" android.position="popup" webIcon="fa fa-remove" />
+</ActionBar>
+```
+
+
+#### Props
+Name | Type | Default | Web | Mobile 
+------------ | ------------- | ------------- | ------------- | -------------
+ios.systemIcon | String | | ✘ | ✔
+android.systemIcon | String | `false` | ✘ | ✔
+ios.position | `left`, `right` | `left` | ✘ | ✔
+android.position | `actionBar`, `popup`, `actionBarIfRoom` | `actionBar` | ✘ | ✔
+webIcon | String |  | ✔ | ✘
+
+#### Events
+Name | Web | Mobile 
+------------ | ------------- | -------------
+tap | ✔ | ✔
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/action-bar/action-item/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_action_bar_.actionitem)
+
+<iframe src="https://codesandbox.io/embed/ooqn530l26?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### NavigationButton
 
 ## Components
