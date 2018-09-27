@@ -215,9 +215,7 @@ itemHeight | Number | `Number.NaN` | X | ✔
   <ActionItem @tap="onTapShare"
     ios.systemIcon="9" ios.position="left"
     android.systemIcon="ic_menu_share" android.position="actionBar" webIcon="fa fa-share" />
-  <ActionItem @tap="onTapDelete"
-    ios.systemIcon="16" ios.position="right"
-    text="delete" android.position="popup" webIcon="fa fa-remove" />
+  <ActionItem @tap="onTapDelete" webIcon="fa fa-remove" />
 </ActionBar>
 ```
 
@@ -225,10 +223,6 @@ itemHeight | Number | `Number.NaN` | X | ✔
 #### Props
 Name | Type | Default | Web | Mobile 
 ------------ | ------------- | ------------- | ------------- | -------------
-ios.systemIcon | String | | ✘ | ✔
-android.systemIcon | String | `false` | ✘ | ✔
-ios.position | `left`, `right` | `left` | ✘ | ✔
-android.position | `actionBar`, `popup`, `actionBarIfRoom` | `actionBar` | ✘ | ✔
 webIcon | String |  | ✔ | ✘
 
 #### Events
