@@ -609,6 +609,42 @@ blur | ✔ | ✔
 <iframe src="https://codesandbox.io/embed/w61lryop88" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 ### TimePicker
+
+> `<TimePicker>` is a UI component that lets users select time.
+
+```html
+<TimePicker :hour="selectedHour" :minute="selectedMinute" />
+```
+
+> `<TimePicker>` provides two-way data binding using v-model.
+
+```html
+<TimePicker v-model="selectedTime" />
+```
+
+#### Props
+Name | Type | Default | Web | Mobile 
+------------ | ------------- | ------------- | ------------- | -------------
+hour | Number | | ✔ | ✔
+minute | Number | | ✔ | ✔
+time | Date | Now | ✔ | ✔
+minHour | Number | | ✔ | ✔
+maxHour | Number | | ✔ | ✔
+minMinute | Number | | ✔ | ✔
+maxMinute | Number | | ✔ | ✔
+minuteInterval | Boolean | | ✘ | ✔
+
+#### Events
+Name | Web | Mobile 
+------------ | ------------- | -------------
+timeChange | ✔ | ✔
+
+#### References
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/time-picker/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_time_picker_.timepicker)
+
+<iframe src="https://codesandbox.io/embed/jvpprv63n5" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### WebView
 
 ## Dialogs
