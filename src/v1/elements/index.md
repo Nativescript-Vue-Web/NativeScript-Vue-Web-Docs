@@ -647,6 +647,22 @@ timeChange | ✔ | ✔
 
 ### WebView
 
+> `<WebView>` is a UI component that lets you show web content in your app. You can pull and show content from a URL or a local HTML file, or you can render static HTML content.
+
+
+```html
+<WebView src="http://nativescript-vue.org/" />
+
+<WebView src="<div><h1>Some static HTML</h1></div>" />
+```
+
+
+#### References
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/web-view/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_web_view_.webview)
+
+<iframe src="https://codesandbox.io/embed/o4zv94romq" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ## Dialogs
 ### ActionDialog
 > This is an overview of the most common usage of ActionDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for ActionDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#action).
