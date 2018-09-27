@@ -206,6 +206,37 @@ itemHeight | Number | `Number.NaN` | X | ✔
 
 ## Action-Bars
 ### ActionBar
+
+> The ActionBar component is a NativeScript abstraction for the Android ActionBar, iOS NavigationBar and Web Toolbar.
+
+#### Using a title
+
+```html
+<ActionBar title="MyApp" />
+```
+
+#### Using a custom title view
+
+```html
+<ActionBar>
+  <StackLayout orientation="horizontal">
+    <Label text="NativeScript" verticalAlignment="center" />
+    <Label text="Vue Web" verticalAlignment="center" />
+  </StackLayout>
+</ActionBar>
+```
+
+#### Props
+Name | Type | Default | Web | Mobile 
+------------ | ------------- | ------------- | ------------- | -------------
+title | String | | ✔ | ✔
+
+#### References
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/action-bar/action-bar/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_action_bar_.actionbar)
+
+<iframe src="https://codesandbox.io/embed/92p675pw4r?module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### ActionItem
 
 > The ActionItem component is used to add additional action buttons to the ActionBar.
