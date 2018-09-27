@@ -268,6 +268,30 @@ tap | ✔ | ✔
 
 ### NavigationButton
 
+> The NavigationButton component is a NativeScript abstraction for the Android navigation button, the iOS and web back button.
+
+```html
+<ActionBar title="My App">
+  <NavigationButton text="Go back" @tap="goBack" webIcon="fa fa-arrow-left" />
+</ActionBar>
+```
+
+#### Props
+Name | Type | Default | Web | Mobile 
+------------ | ------------- | ------------- | ------------- | -------------
+text | String |  | ✔ | ✔
+webIcon | String |  | ✔ | ✘
+
+#### Events
+Name | Web | Mobile 
+------------ | ------------- | -------------
+tap | ✔ | ✔
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/action-bar/navigation-button/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_action_bar_.navigationbutton)
+
+<iframe src="https://codesandbox.io/embed/9y51w9oj54?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ## Components
 ### ActivityIndicator
 ### Button
