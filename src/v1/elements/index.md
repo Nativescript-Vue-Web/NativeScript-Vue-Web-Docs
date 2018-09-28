@@ -651,10 +651,13 @@ timeChange | ✔ | ✔
 
 
 ```html
+<WebView src="~/About"/> 
+
 <WebView src="http://nativescript-vue.org/" />
 
 <WebView src="<div><h1>Some static HTML</h1></div>" />
 ```
+> Note: If provided src starts with "~/", it will be stripped and new path will be relative to the root "/".
 
 
 #### References
