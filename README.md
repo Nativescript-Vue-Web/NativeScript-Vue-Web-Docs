@@ -1,34 +1,18 @@
-# nativescript-vue-web.org
+# Nativescript-Vue-Web Docs
 
-This site is built with [hexo](http://hexo.io/). Site content is written in Markdown format located in `src`. Pull requests welcome!
+[![CircleCI branch](https://img.shields.io/circleci/project/github/Nativescript-Vue-Web/Nativescript-Vue-Web/master.svg)](https://circleci.com/gh/Nativescript-Vue-Web/Nativescript-Vue-Web/)
+[![npm](https://img.shields.io/npm/v/nativescript-vue-web.svg)](https://www.npmjs.com/package/nativescript-vue-web)
+[![Codecov](https://img.shields.io/codecov/c/github/nativescript-vue-web/nativescript-vue-web.svg)](https://codecov.io/gh/Nativescript-Vue-Web/Nativescript-Vue-Web)
 
-## Developing
+[![NpmLicense](https://img.shields.io/npm/l/nativescript-vue-web.svg)](https://www.npmjs.com/package/nativescript-vue-web)
+[![GitHub contributors](https://img.shields.io/github/contributors/nativescript-vue-web/nativescript-vue-web.svg)](https://github.com/Nativescript-Vue-Web/Nativescript-Vue-Web/graphs/contributors)
+[![npm](https://img.shields.io/npm/dt/nativescript-vue-web.svg)](https://www.npmjs.com/package/nativescript-vue-web)
+[![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)](https://github.com/Nativescript-Vue-Web/Nativescript-Vue-Web/graphs/commit-activity)
+[![David](https://img.shields.io/david/nativescript-vue-web/nativescript-vue-web.svg)](https://github.com/Nativescript-Vue-Web/Nativescript-Vue-Web/blob/master/package.json)
+[![David](https://img.shields.io/david/dev/nativescript-vue-web/nativescript-vue-web.svg)](https://github.com/Nativescript-Vue-Web/Nativescript-Vue-Web/blob/master/package.json)
 
-``` bash
-$ npm install
-$ npm start # dev server at http://localhost:4000
+
+##### Documents Site setup and start
 ```
-
-## Deploying
-
-The site is automatically deployed when commits land in `master`, via [Netlify](https://www.netlify.com/).
-
-If you are the maintainer of a community translation fork and would like to deploy via Netlify instead of GitHub pages, please ping @tumayceber in an issue to request a Netlify team membership and DNS update.
-
-## On Translations
-
-Translation for this documentation project are currently maintained in separate repositories forked from this original one.
-
-### ~~French~~
-### ~~Mandarin~~
-### ~~Russian~~
-### ~~Spanish~~
-### ~~Turkish~~
-
-### Want to help with the translation?
-
-If you feel okay with translating sorta alone, you can fork the repo, create a "work-in-progress" issue to inform others that you're doing the translation, and go for it.
-
-If you are more of a team player, Translation Gang might be for you. Let us know somehow that you're ready to join this international open-source translators community.
-
-And thank you in advance ;)
+npm install && npm run start
+```
