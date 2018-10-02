@@ -49,10 +49,8 @@ None
 
 <iframe src="https://codesandbox.io/embed/lrv8061359?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### DockLayout
 
-___
 ### FlexboxLayout
 
 > This is an overview of the most common usage of FlexboxLayout.
@@ -96,9 +94,8 @@ ___
 
 <iframe src="https://codesandbox.io/embed/y7k675mwx9?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### GridLayout
-___
+
 ### StackLayout
 
 > `<StackLayout>` is a layout container that lets you stack the child elements vertically (default) or horizontally.
@@ -170,7 +167,6 @@ None
 
 <iframe src="https://codesandbox.io/embed/9yv6r4ok7y?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### WrapLayout
 
 `WrapLayout` is a layout container that lets you position items in rows or columns, based on the orientation property. When the space is filled, the container automatically wraps items onto a new row or column.
@@ -259,7 +255,6 @@ ___
 
 <iframe src="https://codesandbox.io/embed/92p675pw4r?module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### ActionItem
 
 > The ActionItem component is used to add additional action buttons to the ActionBar.
@@ -290,7 +285,6 @@ ___
 
 <iframe src="https://codesandbox.io/embed/ooqn530l26?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### NavigationButton
 
 > The NavigationButton component is a NativeScript abstraction for the Android navigation button, the iOS and web back button.
@@ -322,7 +316,7 @@ ___
 ## Components
 
 ### ActivityIndicator
-___
+
 ### Button
 
 > This is an overview of the most common usage of Button.
@@ -353,9 +347,8 @@ ___
 
 <iframe src="https://codesandbox.io/embed/n5y3lym66p?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### DatePicker
-___
+
 ### HtmlView
 
 > This is an overview of the most common usage of HtmlView.
@@ -379,7 +372,6 @@ ___
 
 <iframe src="https://codesandbox.io/embed/4ro87o5m0x" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### Image
 
 > This is an overview of the most common usage of Image.
@@ -412,7 +404,6 @@ Displaying an image from a URL
 
 <iframe src="https://codesandbox.io/embed/vnxyxz9553?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### Label
 
 > This is an overview of the most common usage of Label.
@@ -437,7 +428,6 @@ ___
 
 <iframe src="https://codesandbox.io/embed/lrn8qy0yv9?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:300px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### ListPicker
 
 > This is an overview of the most common usage of ListPicker.
@@ -468,9 +458,8 @@ ___
 
 <iframe src="https://codesandbox.io/embed/l9l6o34mvm" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### ListView
-___
+
 ### Progress
 
 > This is an overview of the most common usage of Progress.
@@ -499,7 +488,6 @@ ___
 
 <iframe src="https://codesandbox.io/embed/zkm7o31o6x?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### ScrollView
 
 > This is an overview of the most common usage of ScrollView.
@@ -536,11 +524,10 @@ ___
 
 <iframe src="https://codesandbox.io/embed/y3jzz2v5mv?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### SearchBar
-___
+
 ### SegmentedBar
-___
+
 ### Slider
 
 > This is an overview of the most common usage of Slider.
@@ -576,7 +563,6 @@ ___
 
 <iframe src="https://codesandbox.io/embed/8l36nz28p8?module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### Switch
 
 > This is an overview of the most common usage of Switch.
@@ -611,9 +597,8 @@ ___
 
 <iframe src="https://codesandbox.io/embed/p7wyk8xl3x" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-
-___
 ### TabView
+
 > This is an overview of the most common usage of TabView and TabViewItem.
 
 ```html
@@ -634,32 +619,35 @@ ___
 ```
 
 #### TabView Props
-Name | Type | Default | Web | Mobile 
------------- | ------------- | ------------- | ------------- | -------------
-selectedIndex | Number | 0 | ✔ | ✔
+
+| Name          | Type   | Default | Web | Mobile |
+| ------------- | ------ | ------- | --- | ------ |
+| selectedIndex | Number | 0       | ✔   | ✔      |
 
 #### TabView Events
-Name | Web | Mobile 
------------- | ------------- | -------------
-selectedIndexChanged | ✔ | ✔
+
+| Name                 | Web | Mobile |
+| -------------------- | --- | ------ |
+| selectedIndexChanged | ✔   | ✔      |
 
 #### TabViewItem Props
-Name | Type | Default | Web | Mobile 
------------- | ------------- | ------------- | ------------- | -------------
-id | String | | ✔ | ✔
-title | String | | ✔ | ✔
-webIcon | String | | ✔ | ✘
 
-> NOTE: *TabView only accept TabViewItem as child.* 
-> *Be Aware limitations of NativeScript-Vue and NativeScript before using this component.*
+| Name    | Type   | Default | Web | Mobile |
+| ------- | ------ | ------- | --- | ------ |
+| id      | String |         | ✔   | ✔      |
+| title   | String |         | ✔   | ✔      |
+| webIcon | String |         | ✔   | ✘      |
+
+> NOTE: _TabView only accept TabViewItem as child._
+> _Be Aware limitations of NativeScript-Vue and NativeScript before using this component._
 
 #### References
+
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/tab-view/)
 > or [NativeScript Documentation](https://docs.nativescript.org/ui/ns-ui-widgets/tab-view)
 
 <iframe src="https://codesandbox.io/embed/30vr9xw6nm?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### TextField
 
 > This is an overview of the most common usage of TextField.
@@ -708,7 +696,6 @@ hint="This is placeholder"
 
 <iframe src="https://codesandbox.io/embed/l764j9p8pl?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### TextView
 
 > This is an overview of the most common usage of TextView.
@@ -751,7 +738,6 @@ ___
 
 <iframe src="https://codesandbox.io/embed/w61lryop88" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### TimePicker
 
 > `<TimePicker>` is a UI component that lets users select time.
@@ -792,8 +778,8 @@ ___
 
 <iframe src="https://codesandbox.io/embed/jvpprv63n5" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### WebView
+
 ### Frame
 
 > `<Frame>` is a UI component used to display `<Page>` elements.
@@ -821,6 +807,7 @@ ___
 ```
 
 #### References
+
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/frame/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_frame_.frame)
 
@@ -867,7 +854,6 @@ action("Your message", "Cancel button text", ["Option1", "Option2"]).then(
 
 <iframe src="https://codesandbox.io/embed/24oz9vqnlp" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### AlertDialog
 
 > This is an overview of the most common usage of AlertDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for AlertDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#alert).
@@ -882,7 +868,6 @@ alert("Your message").then(() => {
 
 <iframe src="https://codesandbox.io/embed/m8x5q5njx" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### ConfirmDialog
 
 > This is an overview of the most common usage of ConfirmDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for ConfirmDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#confirm).
@@ -897,7 +882,6 @@ confirm("Your message").then(result => {
 
 <iframe src="https://codesandbox.io/embed/m7xmj8xnxj" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-___
 ### LoginDialog
 
 > This is an overview of the most common usage of LoginDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for LoginDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#login).
@@ -923,8 +907,6 @@ login({
 
 <iframe src="https://codesandbox.io/embed/xzxk3w3l0w" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-
-___
 ### PromptDialog
 
 > This is an overview of the most common usage of PromptDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for PromptDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#prompt).
