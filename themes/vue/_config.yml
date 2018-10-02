@@ -1,7 +1,7 @@
 site_description: "Nativescript Vue Web"
 google_analytics: "dev"
 root_domain: nativescript-vue-web.org
-vue_version: 2.5.16
+vue_version: 2.5.17
 
 special_sponsors:
   - url: https://nuweb.com
