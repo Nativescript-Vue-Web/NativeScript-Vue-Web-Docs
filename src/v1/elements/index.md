@@ -3,6 +3,34 @@ title: Elements
 type: elements
 ---
 
+## Utilities
+
+### v-template
+
+### v-view
+
+> The `v-view`directive lets you set the current element's View as a parent property.
+> The `<RadSideDrawer>` component is part of the Progress NativeScript UI package.
+
+```html
+<Child v-view:parentPropertyName />
+<!-- same as: -->
+<Child ~parentPropertyName />
+```
+
+```html
+<RadSideDrawer>
+  <StackLayout ~drawerContent />
+  <StackLayout ~mainContent />
+</RadSideDrawer>
+```
+
+#### References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/utilities/v-view/)
+
+<iframe src="https://codesandbox.io/embed/0o9mjzy1k0?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ## Layouts
 
 ### AbsoluteLayout
@@ -51,6 +79,52 @@ None
 
 ### DockLayout
 
+> `<DockLayout>` is a layout container that lets you dock child elements to the sides or the center of the layout.
+
+#### Dock to every side without stretching the last child
+
+```html
+<DockLayout stretchLastChild="false" backgroundColor="#3c495e">
+  <Label text="left" dock="left" width="40" backgroundColor="#43b883"/>
+  <Label text="top" dock="top" height="40" backgroundColor="#289062"/>
+  <Label text="right" dock="right" width="40" backgroundColor="#43b883"/>
+  <Label text="bottom" dock="bottom" height="40" backgroundColor="#289062"/>
+</DockLayout>
+```
+
+#### Dock to every side and the center
+
+```html
+<DockLayout stretchLastChild="true" backgroundColor="#3c495e">
+  <Label text="left" dock="left" width="40" backgroundColor="#43b883"/>
+  <Label text="top" dock="top" height="40" backgroundColor="#289062"/>
+  <Label text="right" dock="right" width="40" backgroundColor="#43b883"/>
+  <Label text="bottom" dock="bottom" height="40" backgroundColor="#289062"/>
+  <Label text="center" backgroundColor="#1c6b48" />
+</DockLayout>
+```
+
+#### Props
+
+| Name             | Type    | Default | Web | Mobile |
+| ---------------- | ------- | ------- | --- | ------ |
+| stretchLastChild | Boolean | `false` | ✔   | ✔      |
+
+#### Additional Children Props
+
+> When an element is a direct child of <DockLayout>, you can work with the following additional properties.
+
+| Name | Type                             | Default | Web | Mobile |
+| ---- | -------------------------------- | ------- | --- | ------ |
+| dock | `top`, `right`, `bottom`, `left` |         | ✔   | ✔      |
+
+#### References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/layouts/dock-layout/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_layouts_dock_layout_)
+
+<iframe src="https://codesandbox.io/embed/1zlq9x6954?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### FlexboxLayout
 
 > This is an overview of the most common usage of FlexboxLayout.
@@ -96,6 +170,67 @@ None
 
 ### GridLayout
 
+> This is an overview of the most common usage of GridLayout.
+> `GridLayout` is a layout container that lets you arrange its child in a table-like manner.
+> The following example creates a simple 2-by-2 grid with fixed column widths and row heights.
+
+```html
+<GridLayout columns="115, 115" rows="115, 115">
+ <Label text="0,0" row="0" col="0" backgroundColor="#43b883"/>
+ <Label text="0,1" row="0" col="1" backgroundColor="#1c6b48"/>
+ <Label text="1,0" row="1" col="0" backgroundColor="#289062"/>
+ <Label text="1,1" row="1" col="1" backgroundColor="#43b883"/>
+</GridLayout>
+```
+
+> The following example creates a grid with responsive design, where space is alotted proportionally to child elements.
+
+```html
+<GridLayout columns="*, 2*" rows="2*, 3*" backgroundColor="#3c495e">
+ <Label text="0,0" row="0" col="0" backgroundColor="#43b883"/>
+ <Label text="0,1" row="0" col="1" backgroundColor="#1c6b48"/>
+ <Label text="1,0" row="1" col="0" backgroundColor="#289062"/>
+ <Label text="1,1" row="1" col="1" backgroundColor="#43b883"/>
+</GridLayout>
+```
+
+> The following example creates a complex grid with responsive design, mixed width and height settings, and some merged cells.
+
+```html
+<GridLayout columns="40, auto, *" rows="40, auto, *" backgroundColor="#3c495e">
+ <Label text="0,0" row="0" col="0" backgroundColor="#43b883"/>
+ <Label text="0,1" row="0" col="1" colSpan="2" backgroundColor="#1c6b48"/>
+ <Label text="1,0" row="1" col="0" rowSpan="2" backgroundColor="#289062"/>
+ <Label text="1,1" row="1" col="1" backgroundColor="#43b883"/>
+ <Label text="1,2" row="1" col="2" backgroundColor="#289062"/>
+ <Label text="2,1" row="2" col="1" backgroundColor="#1c6b48"/>
+ <Label text="2,2" row="2" col="2" backgroundColor="#43b883"/>
+</GridLayout>
+```
+
+#### Props
+
+| Name    | Type   | Default | Web | Mobile |
+| ------- | ------ | ------- | --- | ------ |
+| columns | String |         | ✔   | ✔      |
+| rows    | String |         | ✔   | ✔      |
+
+#### Additional Children Props
+
+| Name    | Type   | Default | Web | Mobile |
+| ------- | ------ | ------- | --- | ------ |
+| row     | Number | `0`     | ✔   | ✔      |
+| col     | Number | `0`     | ✔   | ✔      |
+| rowSpan | Number |         | ✔   | ✔      |
+| colSpan | Number |         | ✔   | ✔      |
+
+#### References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/layouts/grid-layout/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_layouts_grid_layout_)
+
+ <iframe src="https://codesandbox.io/embed/l9083jq48q" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+ 
 ### StackLayout
 
 > `<StackLayout>` is a layout container that lets you stack the child elements vertically (default) or horizontally.
@@ -172,6 +307,8 @@ None
 `WrapLayout` is a layout container that lets you position items in rows or columns, based on the orientation property. When the space is filled, the container automatically wraps items onto a new row or column.
 
 > This is an overview of the most common usage of WrapLayout.
+
+`WrapLayout` is a layout container that lets you position items in rows or columns, based on the orientation property. When the space is filled, the container automatically wraps items onto a new row or column.
 
 > The following example creates a row of equally-sized items. When the row runs out of space, the container wraps the last item on a new row.
 
@@ -316,6 +453,33 @@ None
 ## Components
 
 ### ActivityIndicator
+
+> This is an overview of the most common usage of ActivityIndicator.
+
+```html
+<ActivityIndicator busy="true" @busyChange="onBusyChanged" />
+```
+
+`ActivityIndicator` is a UI component that shows a progress indicator signaling to the user of an operation running in the background.
+
+#### Props
+
+| Name | Type    | Default | Web | Mobile |
+| ---- | ------- | ------- | --- | ------ |
+| busy | boolean |         | ✔   | ✔      |
+
+#### Events
+
+| Name       | Web | Mobile |
+| ---------- | --- | ------ |
+| busyChange | ✔   | ✔      |
+
+#### References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/activity-indicator/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_activity_indicator_.activityindicator)
+
+<iframe src="https://codesandbox.io/embed/l52zmow45q" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 ### Button
 
