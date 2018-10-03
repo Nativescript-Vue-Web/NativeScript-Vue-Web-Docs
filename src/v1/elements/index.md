@@ -50,9 +50,11 @@ None
 <iframe src="https://codesandbox.io/embed/lrv8061359?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 ### DockLayout
+
 > `<DockLayout>` is a layout container that lets you dock child elements to the sides or the center of the layout.
 
 #### Dock to every side without stretching the last child
+
 ```html
 <DockLayout stretchLastChild="false" backgroundColor="#3c495e">
   <Label text="left" dock="left" width="40" backgroundColor="#43b883"/>
@@ -75,20 +77,23 @@ None
 ```
 
 #### Props
-Name | Type | Default | Web | Mobile
------------- | ------------- | ------------- | ------------- | -------------
-stretchLastChild | Boolean | `false` | ✔ | ✔
+
+| Name             | Type    | Default | Web | Mobile |
+| ---------------- | ------- | ------- | --- | ------ |
+| stretchLastChild | Boolean | `false` | ✔   | ✔      |
 
 #### Additional Children Props
+
 > When an element is a direct child of <DockLayout>, you can work with the following additional properties.
 
-Name | Type | Default | Web | Mobile
------------- | ------------- | ------------- | ------------- | -------------
-dock | `top`, `right`, `bottom`, `left` | | ✔ | ✔
+| Name | Type                             | Default | Web | Mobile |
+| ---- | -------------------------------- | ------- | --- | ------ |
+| dock | `top`, `right`, `bottom`, `left` |         | ✔   | ✔      |
 
 #### References
+
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/layouts/dock-layout/)
-> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_layouts_dock_layout_) 
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_layouts_dock_layout_)
 
 <iframe src="https://codesandbox.io/embed/1zlq9x6954?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
@@ -679,8 +684,7 @@ Displaying an image from a URL
 | title   | String |         | ✔   | ✔      |
 | webIcon | String |         | ✔   | ✘      |
 
-> NOTE: _TabView only accept TabViewItem as child._
-> _Be Aware limitations of NativeScript-Vue and NativeScript before using this component._
+> NOTE: _TabView only accept TabViewItem as child._ > _Be Aware limitations of NativeScript-Vue and NativeScript before using this component._
 
 #### References
 
