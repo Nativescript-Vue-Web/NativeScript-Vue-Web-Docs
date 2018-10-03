@@ -3,6 +3,34 @@ title: Elements
 type: elements
 ---
 
+## Utilities
+
+### v-template
+
+### v-view
+
+> The `v-view`directive lets you set the current element's View as a parent property.
+> The `<RadSideDrawer>` component is part of the Progress NativeScript UI package.
+
+```html
+<Child v-view:parentPropertyName />
+<!-- same as: -->
+<Child ~parentPropertyName />
+```
+
+```html
+<RadSideDrawer>
+  <StackLayout ~drawerContent />
+  <StackLayout ~mainContent />
+</RadSideDrawer>
+```
+
+#### References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/utilities/v-view/)
+
+<iframe src="https://codesandbox.io/embed/0o9mjzy1k0?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ## Layouts
 
 ### AbsoluteLayout
