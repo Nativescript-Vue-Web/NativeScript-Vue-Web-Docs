@@ -545,6 +545,21 @@ Displaying an image from a URL
 <SegmentedBar v-model="selectedIndex" :items="items" @selectedIndexChanged="changed" />
 ```
 
+#### Props
+
+| Name    | Type    | Default | Web | Mobile |
+| ------- | ------- | ------- | --- | ------ |
+| items | Array<String> |  | ✔   | ✔      |
+| selectedIndex | Number |  | ✔   | ✔      |
+
+
+#### Events
+
+| Name          | Web | Mobile |
+| ------------- | --- | ------ |
+| selectedIndexChange | ✔   | ✔      |
+
+
 #### References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/segmented-bar/)
