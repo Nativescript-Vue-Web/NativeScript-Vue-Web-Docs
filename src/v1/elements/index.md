@@ -712,8 +712,8 @@ Displaying an image from a URL
 | title   | String |         | ✔   | ✔      |
 | webIcon | String |         | ✔   | ✘      |
 
-> NOTE: TabView only accept TabViewItem as child.
-> Be Aware limitations of NativeScript-Vue and NativeScript before using this component.\_
+> NOTE: _TabView only accept TabViewItem as child._
+> _Be Aware limitations of NativeScript-Vue and NativeScript before using this component._
 
 #### References
 
