@@ -692,6 +692,45 @@ Displaying an image from a URL
 
 ### SegmentedBar
 
+> `<SegmentedBar>` is a UI bar component that displays a set of buttons for discrete selection. Can show text or images.
+
+
+```html
+<SegmentedBar>
+  <SegmentedBarItem title="Segment 1"/>
+  <SegmentedBarItem title="Segment 2"/>
+  <SegmentedBarItem title="Segment 3"/>
+</SegmentedBar>
+```
+
+`<SegmentedBar>` provides two-way data binding using v-model.
+
+```html
+<SegmentedBar v-model="selectedIndex" :items="items" @selectedIndexChanged="changed" />
+```
+
+#### Props
+
+| Name    | Type    | Default | Web | Mobile |
+| ------- | ------- | ------- | --- | ------ |
+| items | Array<String> |  | ✔   | ✔      |
+| selectedIndex | Number |  | ✔   | ✔      |
+
+
+#### Events
+
+| Name          | Web | Mobile |
+| ------------- | --- | ------ |
+| selectedIndexChange | ✔   | ✔      |
+
+
+#### References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/segmented-bar/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_segmented_bar_)
+
+<iframe src="https://codesandbox.io/embed/8xm4v77x39" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### Slider
 
 > This is an overview of the most common usage of Slider.
