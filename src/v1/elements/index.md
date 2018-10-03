@@ -29,6 +29,8 @@ type: elements
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/utilities/v-view/)
 
+<iframe src="https://codesandbox.io/embed/0o9mjzy1k0?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ## Layouts
 
 ### AbsoluteLayout
