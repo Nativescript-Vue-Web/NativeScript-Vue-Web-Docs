@@ -690,6 +690,44 @@ Displaying an image from a URL
 
 ### SearchBar
 
+> This is an overview of the most common usage of SearchBar.
+
+> `<SearchBar>` is a UI component that provides a user interface for entering search queries and submitting requests to the search provider.
+
+```html
+<SearchBar hint="Search hint" :text="searchPhrase" @textChange="onTextChanged" @submit="onSubmit" />
+```
+
+> `<SearchBar>` provides two-way data binding using v-model.
+
+```html
+<SearchBar v-model="searchQuery" />
+```
+
+#### Props
+
+| Name                      | Type                     | Default    | Web | Mobile |
+| ------------------------- | ------------------------ | ---------- | --- | ------ |
+| hint                      | String                   |            | ✔   | ✔     |
+| text                      | String                   |            | ✔   | ✘     |
+| textFieldBackgroundColor  | String                   |            | ✔   | ✔     |
+| textFieldHintColor        | String                   |            | ✘   | ✔     |
+
+#### Events
+
+| Name                      | Web | Mobile |
+| ------------------------- | --- | ------ |
+| textChange                | ✔   | ✔     |
+| submit                    | ✔   | ✔     |
+| clear                     | ✔   | ✔     |
+
+#### References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/search-bar/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_search_bar_.searchbar)
+
+<iframe src="https://codesandbox.io/embed/m7yz90mn6p" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### SegmentedBar
 
 > `<SegmentedBar>` is a UI bar component that displays a set of buttons for discrete selection. Can show text or images.
