@@ -3,8 +3,7 @@ sidebarDepth: 0
 ---
 # Absolute Layout
 
-This is an overview of the most common usage of AbsoluteLayout.
-
+The `<AbsoluteLayout>` container is the simplest layout container in NativeScript.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/lrv8061359">
 
@@ -19,7 +18,6 @@ This is an overview of the most common usage of AbsoluteLayout.
 
 <AbsoluteLayoutDoc />
 </DocExampleBox>
-
 
 ## Props
 

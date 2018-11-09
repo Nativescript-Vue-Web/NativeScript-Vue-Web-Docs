@@ -26,7 +26,8 @@ module.exports = {
           title: "Layouts",
           collapsable: false,
           children: [
-            "layouts/absolute-layout"
+            "layouts/absolute-layout",
+            "layouts/dock-layout",
           ]
         },
         {

@@ -1,0 +1,35 @@
+<template>
+  <StackLayout>
+    <DockLayout :stretchLastChild="false" class="container">
+      <Label text="left" dock="left" width="40" backgroundColor="#43b883"/>
+      <Label text="top" dock="top" height="40" backgroundColor="#289062"/>
+      <Label text="right" dock="right" width="40" backgroundColor="#43b883"/>
+      <Label text="bottom" dock="bottom" height="40" backgroundColor="#289062"/>
+    </DockLayout>
+
+    <DockLayout :stretchLastChild="true" class="container">
+      <Label text="left" dock="left" width="40" backgroundColor="#43b883"/>
+      <Label text="top" dock="top" height="40" backgroundColor="#289062"/>
+      <Label text="right" dock="right" width="40" backgroundColor="#43b883"/>
+      <Label text="bottom" dock="bottom" height="40" backgroundColor="#289062"/>
+      <Label text="center" backgroundColor="#1c6b48" />
+    </DockLayout>
+  </StackLayout>
+</template>
+
+<script>
+  import { StackLayout, DockLayout} from "nativescript-vue-web";
+  export default {
+    name: "DockLayoutDoc",
+    components: {StackLayout, DockLayout}
+  }
+</script>
+
+<style scoped>
+  .container{
+    width: 300px;
+    height: 150px;
+    margin-bottom: 30px;
+    background-color: #3c495e;
+  }
+</style>
