@@ -28,6 +28,8 @@ module.exports = {
           children: [
             "layouts/absolute-layout",
             "layouts/dock-layout",
+            "layouts/stack-layout",
+            "layouts/wrap-layout",
           ]
         },
         {
