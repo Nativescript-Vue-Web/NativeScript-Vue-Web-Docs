@@ -4,7 +4,7 @@
 
 > Default stacking
 
-<DocExampleBox codeBox="https://codesandbox.io/embed/9yv6r4ok7y?hidenavigation=1&module=%2Fsrc%2FApp.vue">
+<DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y">
 
 ```html
 <StackLayout class="container__layout" backgroundColor="#3c495e">
@@ -18,7 +18,7 @@
 
 > Horizontal stacking
 
-<DocExampleBox codeBox="https://codesandbox.io/embed/9yv6r4ok7y?hidenavigation=1&module=%2Fsrc%2FApp.vue">
+<DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y">
 
 ```html
 <StackLayout orientation="horizontal" backgroundColor="#3c495e">
@@ -32,7 +32,7 @@
 
 > Stack layout with horizontally aligned children
 
-<DocExampleBox codeBox="https://codesandbox.io/embed/9yv6r4ok7y?hidenavigation=1&module=%2Fsrc%2FApp.vue">
+<DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y">
 
 ```html
 <StackLayout backgroundColor="#3c495e">
@@ -51,7 +51,7 @@
 
 > Horizontal stack layout with vertically aligned children
 
-<DocExampleBox codeBox="https://codesandbox.io/embed/9yv6r4ok7y?hidenavigation=1&module=%2Fsrc%2FApp.vue">
+<DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y">
 
 ```html
 <StackLayout orientation="horizontal" backgroundColor="#3c495e">
