@@ -30,7 +30,8 @@ module.exports = {
             "layouts/dock-layout",
             "layouts/stack-layout",
             "layouts/flexbox-layout",
-            "layouts/wrap-layout"
+            "layouts/wrap-layout",
+            "layouts/grid-layout"
           ]
         },
         {
