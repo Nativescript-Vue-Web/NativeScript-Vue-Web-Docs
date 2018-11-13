@@ -15,7 +15,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .wrapLayoutItem {
   width: 140px;
   height: 140px;
