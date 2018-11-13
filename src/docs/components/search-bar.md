@@ -20,7 +20,7 @@ onSubmit(){
 <SearchBarDoc />
 </DocExampleBox>
 
-> `<SearchBar>` provides two-way data binding using v-model.
+`<SearchBar>` provides two-way data binding using v-model.
 
 ```html
 <SearchBar v-model="searchQuery" />

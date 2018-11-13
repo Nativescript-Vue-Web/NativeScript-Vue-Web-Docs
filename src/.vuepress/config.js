@@ -52,7 +52,8 @@ module.exports = {
             "components/activity-indicator",
             "components/text-field",
             "components/text-view",
-            "components/button"
+            "components/button",
+            "components/time-picker",
           ]
         },
         {
