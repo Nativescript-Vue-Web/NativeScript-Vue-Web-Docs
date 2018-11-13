@@ -10,13 +10,9 @@
 </template>
 
 <script>
-  import { StackLayout, AbsoluteLayout} from "nativescript-vue-web";
-  export default {
-    name: "AbsoluteLayoutDoc",
-    components: {StackLayout, AbsoluteLayout}
-  }
+import { StackLayout, AbsoluteLayout } from "nativescript-vue-web";
+export default {
+  name: "AbsoluteLayoutDoc",
+  components: { StackLayout, AbsoluteLayout }
+};
 </script>
-
-<style scoped>
-
-</style>
