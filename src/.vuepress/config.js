@@ -5,7 +5,10 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       { text: "Docs", link: "/docs/" },
-      { text: 'GitHub', link: 'https://github.com/Nativescript-Vue-Web/Nativescript-Vue-Web' },
+      {
+        text: "GitHub",
+        link: "https://github.com/Nativescript-Vue-Web/Nativescript-Vue-Web"
+      }
     ],
     sidebar: {
       "/docs/": [
@@ -13,9 +16,7 @@ module.exports = {
         {
           title: "Getting Started",
           collapsable: false,
-          children: [
-            "getting-started/installation"
-          ]
+          children: ["getting-started/installation"]
         },
         {
           title: "Utilities",
@@ -31,15 +32,13 @@ module.exports = {
             "layouts/stack-layout",
             "layouts/flexbox-layout",
             "layouts/wrap-layout",
-            //"layouts/grid-layout"
+            "layouts/grid-layout"
           ]
         },
         {
           title: "Action Bars",
           collapsable: false,
-          children: [
-            "action-bars/navigation-button",
-          ]
+          children: ["action-bars/navigation-button"]
         },
         {
           title: "Components",
@@ -50,6 +49,7 @@ module.exports = {
             "components/slider",
             "components/switch",
             "components/tab-view",
+            "components/activity-indicator"
           ]
         },
         {
