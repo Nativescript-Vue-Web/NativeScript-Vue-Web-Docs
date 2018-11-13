@@ -5,16 +5,16 @@
         <Label text="third" height="70" backgroundColor="#1c6b48"/>
     </StackLayout>
 </template>
- 
+
 <script>
-import { StackLayout, DockLayout } from "nativescript-vue-web";
+import StackLayout  from "nativescript-vue-web";
 export default {
   name: "StackLayoutDoc",
-  components: { StackLayout, DockLayout }
+  components: { StackLayout }
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .container {
   width:100%;
   height: 100%;
