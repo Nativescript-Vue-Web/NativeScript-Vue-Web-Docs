@@ -43,7 +43,9 @@ module.exports = {
         {
           title: "Components",
           collapsable: false,
-          children: []
+          children: [
+            "components/segmented-bar",
+          ]
         },
         {
           title: "Dialogs",
