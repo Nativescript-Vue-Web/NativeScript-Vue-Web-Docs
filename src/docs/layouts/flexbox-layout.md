@@ -67,6 +67,7 @@ The `<FlexboxLayout>`  helps to adjust child components both horizontally and ve
 
 > When an element is a direct child of `<FlexboxLayout>`, you can work with the following additional properties.
 
+
 | Name           | Type    | Default   | Web | Mobile |
 | -------------- | ------- | --------- | --- | ------ |
 | order          | Number  |           | ✔   | ✔      |
