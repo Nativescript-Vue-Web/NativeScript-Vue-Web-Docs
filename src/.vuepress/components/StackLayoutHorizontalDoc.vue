@@ -11,7 +11,7 @@
 import { StackLayout, Label } from "nativescript-vue-web";
 export default {
   name: "StackLayoutHorizontalDoc",
-  components: { StackLayout, DockLayout }
+  components: { StackLayout }
 };
 </script>
 
