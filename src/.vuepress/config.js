@@ -51,6 +51,7 @@ module.exports = {
             "components/tab-view",
             "components/activity-indicator",
             "components/text-field",
+            "components/text-view",
           ]
         },
         {
