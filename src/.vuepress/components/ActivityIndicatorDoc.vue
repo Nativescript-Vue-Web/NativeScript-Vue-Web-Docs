@@ -1,7 +1,7 @@
 <template>
-  <StackLayout>
-    <ActivityIndicator :busy="busy" @busyChange="onBusyChanged" />
-    <Button text="Change State" @tap="changeState" class="button" ></Button>
+  <StackLayout class="activityindicator">
+    <Button class="activityindicator__button" text="Change State" @tap="changeState" horizontalAlignment="center"></Button>
+    <ActivityIndicator :busy="busy" @busyChange="onBusyChanged"  horizontalAlignment="center"/>
   </StackLayout>
 </template>
 
@@ -27,9 +27,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.button {
-  width: 100px;
-  margin-top: 50px;
+.activityindicator {
+  &__button {
+    width: 100px;
+    margin-bottom: 50px;
+  }
 }
 </style>
 

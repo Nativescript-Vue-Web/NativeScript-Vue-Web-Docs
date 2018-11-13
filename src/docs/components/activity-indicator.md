@@ -13,6 +13,7 @@ sidebarDepth: 0
 
 <ActivityIndicatorDoc />
 </DocExampleBox>
+
 > `ActivityIndicator` is a UI component that shows a progress indicator signaling to the user of an operation running in the background.
 
 ## Props
