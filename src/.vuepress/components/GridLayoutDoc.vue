@@ -1,0 +1,23 @@
+<template>
+   <GridLayout class="container" width="200" height="220" columns="115, 115" rows="115, 115">
+      <Label text="0,0" row="0" col="0" backgroundColor="#43b883"/>
+      <Label text="0,1" row="0" col="1" backgroundColor="#1c6b48"/>
+      <Label text="1,0" row="1" col="0" backgroundColor="#289062"/>
+      <Label text="1,1" row="1" col="1" backgroundColor="#43b883"/>
+    </GridLayout>
+</template>
+
+<script>
+import { GridLayout, Label } from "nativescript-vue-web";
+export default {
+  name: "StackLayoutDoc",
+  components: { GridLayout }
+};
+</script>
+
+ <style lang="scss">
+ .container {
+   margin-bottom: 12px;
+ }
+
+</style>

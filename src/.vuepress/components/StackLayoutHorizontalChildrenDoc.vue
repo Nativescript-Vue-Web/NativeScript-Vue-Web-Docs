@@ -10,12 +10,12 @@
          height="70" backgroundColor="#43b883"/>
     </StackLayout>
 </template>
- 
+
 <script>
-import { StackLayout, DockLayout } from "nativescript-vue-web";
+import { StackLayout, Label } from "nativescript-vue-web";
 export default {
   name: "StackLayoutHorizontalChildrenDoc",
-  components: { StackLayout, DockLayout }
+  components: { StackLayout, Label }
 };
 </script>
 

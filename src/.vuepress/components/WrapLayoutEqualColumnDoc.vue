@@ -6,12 +6,12 @@
         <Label text="fourth" class="wrapLayoutItem" backgroundColor="#289062"/>
     </WrapLayout>
 </template>
- 
+
 <script>
-import { WrapLayout } from "nativescript-vue-web";
+import { WrapLayout, Label } from "nativescript-vue-web";
 export default {
   name: "WrapLayoutEqualColumnDoc",
-  components: { WrapLayout }
+  components: { WrapLayout, Label }
 };
 </script>
 
