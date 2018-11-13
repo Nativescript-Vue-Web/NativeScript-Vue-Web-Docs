@@ -1,5 +1,5 @@
 <template>
-  <FlexboxLayout class="container" backgroundColor="#3c495e">
+  <FlexboxLayout class="flexbox" backgroundColor="#3c495e">
     <Label text="first" width="70" backgroundColor="#43b883"/>
     <Label text="second" width="70" backgroundColor="#1c6b48"/>
     <Label text="third" width="70" backgroundColor="#289062"/>
@@ -14,9 +14,8 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.container {
+<style lang="scss" scoped>
+.flexbox {
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

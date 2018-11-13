@@ -1,5 +1,5 @@
 <template>
-<StackLayout class="container" orientation="horizontal" backgroundColor="#3c495e">
+<StackLayout class="stack" orientation="horizontal" backgroundColor="#3c495e">
         <Label text="top" verticalAlignment="top"
          width="70" height="33%" backgroundColor="#43b883"/>
         <Label text="center" verticalAlignment="center"
@@ -19,10 +19,10 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-.container {
-  width:100%;
+<style lang="scss" scoped>
+.stack {
+  width: 100%;
   height: 100%;
-  min-height:300px
+  min-height: 300px;
 }
 </style>
