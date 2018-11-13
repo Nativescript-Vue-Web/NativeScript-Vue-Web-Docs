@@ -45,6 +45,7 @@ module.exports = {
           title: "Components",
           collapsable: false,
           children: [
+            "components/search-bar",
             "components/segmented-bar",
           ]
         },
