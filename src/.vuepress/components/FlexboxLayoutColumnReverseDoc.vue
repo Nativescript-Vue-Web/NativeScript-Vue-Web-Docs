@@ -1,0 +1,24 @@
+<template>
+  <FlexboxLayout class="container" flexDirection="column-reverse" justifyContent="space-around" backgroundColor="#3c495e">
+    <Label text="first" height="70" backgroundColor="#43b883"/>
+    <Label text="second" alignSelf="center" width="70" height="70" backgroundColor="#1c6b48"/>
+    <Label text="third" alignSelf="flex-end" width="70" height="70" backgroundColor="#289062"/>
+    <Label text="fourth" height="70" backgroundColor="#289062"/>
+  </FlexboxLayout>
+</template>
+
+<script>
+import{ FlexboxLayout, Label} from "nativescript-vue-web";
+export default {
+  name: "FlexBoxLayoutDoc",
+  components: { FlexboxLayout, Label }
+};
+</script>
+
+<style lang="scss">
+.container {
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
+
