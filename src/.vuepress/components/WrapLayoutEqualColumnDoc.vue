@@ -16,8 +16,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.container {
-  width:100%;
-  height: 100%;
+.wrapLayoutItem {
+  width: 140px;
+  height: 140px;
 }
 </style>
