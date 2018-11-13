@@ -8,7 +8,7 @@ This is an overview of the most common usage of SearchBar.
 
 `<SearchBar>` is a UI component that provides a user interface for entering search queries and submitting requests to the search provider.
 
-<DocExampleBox>
+<DocExampleBox codeBox="https://codesandbox.io/s/m7yz90mn6p">
 ```html
 <SearchBar hint="Search hint" :text="searchPhrase"  @submit="onSubmit" />
 ```
