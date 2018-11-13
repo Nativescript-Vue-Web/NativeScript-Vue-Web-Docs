@@ -31,7 +31,7 @@ module.exports = {
             "layouts/stack-layout",
             "layouts/flexbox-layout",
             "layouts/wrap-layout",
-            "layouts/grid-layout"
+            //"layouts/grid-layout"
           ]
         },
         {
@@ -49,6 +49,7 @@ module.exports = {
             "components/segmented-bar",
             "components/slider",
             "components/switch",
+            "components/tab-view",
           ]
         },
         {
