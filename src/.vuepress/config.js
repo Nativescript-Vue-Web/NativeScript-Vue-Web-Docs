@@ -47,7 +47,8 @@ module.exports = {
           children: [
             "components/search-bar",
             "components/segmented-bar",
-            "components/slider"
+            "components/slider",
+            "components/switch",
           ]
         },
         {
