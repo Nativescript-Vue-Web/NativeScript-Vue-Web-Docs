@@ -4,12 +4,12 @@ sidebarDepth: 0
 
 # Slider
 
-> This is an overview of the most common usage of Slider.
+This is an overview of the most common usage of Slider.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/8o0v3jyl9">
+<DocExampleBox codeBox="https://codesandbox.io/s/8l36nz28p8">
 
 ```html
-    <Slider :value="80" @valueChange="onValueChanged" />
+<Slider :value="80" @valueChange="onValueChanged" />
 ```
 
 <SliderDoc />

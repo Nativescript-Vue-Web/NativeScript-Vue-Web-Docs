@@ -3,8 +3,8 @@ sidebarDepth: 0
 ---
 # Grid Layout
 
-> This is an overview of the most common usage of GridLayout.
-> `GridLayout` is a layout container that lets you arrange its child in a table-like manner.
+This is an overview of the most common usage of GridLayout.
+`GridLayout` is a layout container that lets you arrange its child in a table-like manner.
 > The following example creates a simple 2-by-2 grid with fixed column widths and row heights.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/l9083jq48q">

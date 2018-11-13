@@ -4,17 +4,17 @@ sidebarDepth: 0
 
 # Switch
 
-> This is an overview of the most common usage of Switch.
+ This is an overview of the most common usage of Switch.
 > "Switcher" is being used in the implementation thus, Switch word is a reserved one for VueJs.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/p7wyk8xl3x">
 ```html
-    <Switcher checked="true" />
+<Switcher checked="true" />
 ```
 <SwitchDoc />
 </DocExampleBox>
 
-`Switch` provides two-way data binding using v-model.
+`Switcher` provides two-way data binding using v-model.
 
 ```html
 <Switcher v-model="itemEnabled" />

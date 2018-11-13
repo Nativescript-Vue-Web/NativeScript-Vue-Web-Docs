@@ -49,7 +49,8 @@ module.exports = {
             "components/slider",
             "components/switch",
             "components/tab-view",
-            "components/activity-indicator"
+            "components/activity-indicator",
+            "components/text-field",
           ]
         },
         {
