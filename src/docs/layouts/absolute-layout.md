@@ -20,10 +20,6 @@ The `<AbsoluteLayout>` container is the simplest layout container in NativeScrip
 <AbsoluteLayoutDoc />
 </DocExampleBox>
 
-## Props
-
-None
-
 ## Additional Children Props
 
 When an element is a direct child of `<AbsoluteLayout>`, you can work with the following additional properties.

@@ -57,12 +57,13 @@ The `<ActionBar>` component is a NativeScript abstraction for the Android Action
 <ActionBarDoc />
 </DocExampleBox>
 
-#### Props
+## Props
 
 | Name  | Type   | Default | Web | Mobile |
 | ----- | ------ | ------- | --- | ------ |
 | title | String |         | ✔   | ✔      |
 
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/action-bar/action-bar/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_action_bar_.actionbar)

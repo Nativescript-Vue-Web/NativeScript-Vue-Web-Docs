@@ -25,19 +25,19 @@ This is an overview of the most common usage of `<TabView>` and `<TabViewItem>`.
 <TabViewDoc />
 </DocExampleBox>
 
-#### TabView Props
+## TabView Props
 
 | Name          | Type   | Default | Web | Mobile |
 | ------------- | ------ | ------- | --- | ------ |
 | selectedIndex | Number | 0       | ✔   | ✔      |
 
-#### TabView Events
+## TabView Events
 
 | Name                 | Web | Mobile |
 | -------------------- | --- | ------ |
 | selectedIndexChanged | ✔   | ✔      |
 
-#### TabViewItem Props
+## TabViewItem Props
 
 | Name    | Type   | Default | Web | Mobile |
 | ------- | ------ | ------- | --- | ------ |
@@ -48,7 +48,7 @@ This is an overview of the most common usage of `<TabView>` and `<TabViewItem>`.
 > NOTE: *TabView only accept TabViewItem as child.*
  > _Be Aware limitations of NativeScript-Vue and NativeScript before using this component._
 
-#### References
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/tab-view/)
 > or [NativeScript Documentation](https://docs.nativescript.org/ui/ns-ui-widgets/tab-view)

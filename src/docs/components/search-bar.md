@@ -26,7 +26,7 @@ onSubmit(){
 <SearchBar v-model="searchQuery" />
 ```
 
-#### Props
+## Props
 
 | Name                     | Type   | Default | Web | Mobile |
 | ------------------------ | ------ | ------- | --- | ------ |
@@ -35,7 +35,7 @@ onSubmit(){
 | textFieldBackgroundColor | String |         | ✔   | ✔      |
 | textFieldHintColor       | String |         | ✘   | ✔      |
 
-#### Events
+## Events
 
 | Name       | Web | Mobile |
 | ---------- | --- | ------ |
@@ -43,7 +43,7 @@ onSubmit(){
 | submit     | ✔   | ✔      |
 | clear      | ✔   | ✔      |
 
-#### References
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/search-bar/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_search_bar_.searchbar)

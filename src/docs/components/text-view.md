@@ -19,7 +19,7 @@ This is an overview of the most common usage of `<TextView>`.
   <TextView v-model="textViewInput" :editable=true />
 ```
 
-#### Props
+## Props
 
 | Name          | Type                                              | Default | Web | Mobile |
 | ------------- | ------------------------------------------------- | ------- | --- | ------ |
@@ -31,7 +31,7 @@ This is an overview of the most common usage of `<TextView>`.
 | returnKeyType | `done`,`next`,`go`,`search`,`send`                |         | ✘   | ✔      |
 | autocorrect   | Boolean                                           |         | ✔   | ✔      |
 
-#### Events
+## Events
 
 | Name        | Web | Mobile |
 | ----------- | --- | ------ |
@@ -40,7 +40,7 @@ This is an overview of the most common usage of `<TextView>`.
 | focus       | ✔   | ✔      |
 | blur        | ✔   | ✔      |
 
-#### References
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/text-view/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_text_view_.textview)

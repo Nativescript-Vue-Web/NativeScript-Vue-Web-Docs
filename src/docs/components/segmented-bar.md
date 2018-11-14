@@ -25,20 +25,20 @@ sidebarDepth: 0
 <SegmentedBar v-model="selectedIndex" :items="items" @selectedIndexChanged="changed" />
 ```
 
-#### Props
+## Props
 
 | Name          | Type            | Default | Web | Mobile |
 | ------------- | --------------- | ------- | --- | ------ |
 | items         | Array`<String>` |         | ✔   | ✔      |
 | selectedIndex | Number          |         | ✔   | ✔      |
 
-#### Events
+## Events
 
 | Name                | Web | Mobile |
 | ------------------- | --- | ------ |
 | selectedIndexChange | ✔   | ✔      |
 
-#### References
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/segmented-bar/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_segmented_bar_)

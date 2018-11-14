@@ -19,7 +19,7 @@ sidebarDepth: 0
 <TimePicker v-model="selectedTime" />
 ```
 
-#### Props
+## Props
 
 | Name           | Type    | Default | Web | Mobile |
 | -------------- | ------- | ------- | --- | ------ |
@@ -32,13 +32,13 @@ sidebarDepth: 0
 | maxMinute      | Number  |         | ✔   | ✔      |
 | minuteInterval | Boolean |         | ✘   | ✔      |
 
-#### Events
+## Events
 
 | Name       | Web | Mobile |
 | ---------- | --- | ------ |
 | timeChange | ✔   | ✔      |
 
-#### References
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/time-picker/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_time_picker_.timepicker)

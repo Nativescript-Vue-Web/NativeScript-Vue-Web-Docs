@@ -23,7 +23,7 @@ sidebarDepth: 0
 <WebView src="<div><h1>Some static HTML</h1></div>" />
 ```
 
-#### References
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/web-view/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_web_view_.webview)

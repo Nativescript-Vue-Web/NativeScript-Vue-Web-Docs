@@ -2,7 +2,7 @@
 
 `<Frame>` is a UI component used to display `<Page>` elements.
 
-> Multiple Frames
+Multiple Frames
 
 ```html
 <GridLayout columns="*, *">
@@ -11,7 +11,7 @@
 </GridLayout>
 ```
 
-> A frame with a default page
+A frame with a default page
 
 ```html
 <Frame>
@@ -54,7 +54,7 @@ webViewLoadFinished(event) {
 <FrameDoc />
 </DocExampleBox>
 
-#### References
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/frame/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_frame_.frame)

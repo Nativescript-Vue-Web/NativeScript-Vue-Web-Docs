@@ -51,17 +51,19 @@ The `<ActionItem>` component is used to add additional action buttons to the Act
 <ActionItemDoc />
 </DocExampleBox>
 
-#### Props
+## Props
 
 | Name    | Type   | Default | Web | Mobile |
 | ------- | ------ | ------- | --- | ------ |
 | webIcon | String |         | ✔   | ✘      |
 
-#### Events
+## Events
 
 | Name | Web | Mobile |
 | ---- | --- | ------ |
 | tap  | ✔   | ✔      |
+
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/action-bar/action-item/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_action_bar_.actionitem)

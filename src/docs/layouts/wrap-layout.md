@@ -2,7 +2,7 @@
 
 `<WrapLayout>` is a layout container that lets you stack the child elements vertically (default) or horizontally.
 
-> The following example creates a row of equally-sized items. When the row runs out of space, the container wraps the last item on a new row.
+The following example creates a row of equally-sized items. When the row runs out of space, the container wraps the last item on a new row.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/xmj262j64">
 
@@ -25,7 +25,7 @@
 <WrapLayoutDoc />
 </DocExampleBox>
 
-> The following example creates a column of equally-sized items. When the row runs out of space, the container wraps the last item on a new column.
+The following example creates a column of equally-sized items. When the row runs out of space, the container wraps the last item on a new column.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/xmj262j64">
 
@@ -48,7 +48,7 @@
 <WrapLayoutEqualColumnDoc />
 </DocExampleBox>
 
-#### Props
+## Props
 
 | Name        | Type   | Default      | Web | Mobile |
 | ----------- | ------ | ------------ | --- | ------ |
@@ -56,9 +56,7 @@
 | itemWidth   | Number | `Number.NaN` | X   | ✔      |
 | itemHeight  | Number | `Number.NaN` | X   | ✔      |
 
-> There are no additional children props.
-
-#### References
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/layouts/wrap-layout/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_layouts_wrap_layout_)

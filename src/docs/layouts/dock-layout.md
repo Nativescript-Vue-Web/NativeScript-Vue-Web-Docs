@@ -37,7 +37,7 @@ The `<DockLayout>` is a layout container that lets you dock child elements to th
 
 ## Additional Children Props
 
-> When an element is a direct child of `<DockLayout>`, you can work with the following additional properties.
+When an element is a direct child of `<DockLayout>`, you can work with the following additional properties.
 
 | Name | Type                             | Default | Web | Mobile |
 | ---- | -------------------------------- | ------- | --- | ------ |

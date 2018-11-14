@@ -6,7 +6,7 @@ sidebarDepth: 0
 
 This is an overview of the most common usage of `<Switch>`.
 
-> "Switcher" is being used in the implementation thus, Switch word is a reserved one for VueJs.
+"Switcher" is being used in the implementation thus, Switch word is a reserved one for VueJs.
 
 ```html
 <Switcher :checked="true" />
@@ -36,19 +36,19 @@ switchValueChange: event => console.log(event);
 <SwitchDoc />
 </DocExampleBox>
 
-#### Props
+## Props
 
 | Name    | Type    | Default | Web | Mobile |
 | ------- | ------- | ------- | --- | ------ |
 | checked | Boolean | `false` | ✔   | ✔      |
 
-#### Events
+## Events
 
 | Name          | Web | Mobile |
 | ------------- | --- | ------ |
 | checkedChange | ✔   | ✔      |
 
-#### References
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/switch/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_switch_.switch)

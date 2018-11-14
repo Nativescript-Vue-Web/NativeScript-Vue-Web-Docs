@@ -21,7 +21,7 @@ This is an overview of the most common usage of `<Slider>`.
 <Slider v-model="value" />
 ```
 
-#### Props
+## Props
 
 | Name     | Type   | Default | Web | Mobile |
 | -------- | ------ | ------- | --- | ------ |
@@ -29,13 +29,13 @@ This is an overview of the most common usage of `<Slider>`.
 | minValue | Number | `0`     | ✔   | ✔      |
 | maxValue | Number | `100`   | ✔   | ✔      |
 
-#### Events
+## Events
 
 | Name        | Web | Mobile |
 | ----------- | --- | ------ |
 | valueChange | ✔   | ✔      |
 
-#### References
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/slider/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_slider_.slider)

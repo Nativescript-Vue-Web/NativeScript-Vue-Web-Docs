@@ -2,7 +2,7 @@
 
 `<StackLayout>` is a layout container that lets you stack the child elements vertically (default) or horizontally.
 
-> Default stacking
+Default stacking
 
 <DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y">
 
@@ -17,7 +17,7 @@
 <StackLayoutDoc />
 </DocExampleBox>
 
-> Horizontal stacking
+Horizontal stacking
 
 <DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y">
 
@@ -32,7 +32,7 @@
 <StackLayoutHorizontalDoc />
 </DocExampleBox>
 
-> Stack layout with horizontally aligned children
+Stack layout with horizontally aligned children
 
 <DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y">
 
@@ -52,7 +52,7 @@
 <StackLayoutHorizontalChildrenDoc />
 </DocExampleBox>
 
-> Horizontal stack layout with vertically aligned children
+Horizontal stack layout with vertically aligned children
 
 <DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y">
 
@@ -72,17 +72,13 @@
 <StackLayoutVerticalChildrenDoc />
 </DocExampleBox>
 
-#### Props
+## Props
 
 | Name        | Type                     | Default    | Web | Mobile |
 | ----------- | ------------------------ | ---------- | --- | ------ |
 | orientation | `vertical`, `horizontal` | `vertical` | ✔   | ✔      |
 
-#### Additional Children Props
-
-None
-
-#### References
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/layouts/stack-layout/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_layouts_stack_layout_)

@@ -47,7 +47,7 @@ textFieldOnReturnPress: event => console.log("Return Press event :", event)
 <TextFieldDoc />
 </DocExampleBox>
 
-#### Props
+## Props
 
 | Name          | Type                                              | Default | Web | Mobile |
 | ------------- | ------------------------------------------------- | ------- | --- | ------ |
@@ -60,7 +60,7 @@ textFieldOnReturnPress: event => console.log("Return Press event :", event)
 | returnKeyType | `done`,`next`,`go`,`search`,`send`                |         | ✘   | ✔      |
 | autocorrect   | Boolean                                           |         | ✔   | ✔      |
 
-#### Events
+## Events
 
 | Name        | Web | Mobile |
 | ----------- | --- | ------ |
@@ -69,7 +69,7 @@ textFieldOnReturnPress: event => console.log("Return Press event :", event)
 | focus       | ✔   | ✔      |
 | blur        | ✔   | ✔      |
 
-#### References
+## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/text-field/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_text_field_)
