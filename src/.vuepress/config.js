@@ -54,6 +54,7 @@ module.exports = {
             "components/text-view",
             "components/button",
             "components/time-picker",
+            "components/html-view",
             "components/web-view",
           ]
         },
