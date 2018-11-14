@@ -3,7 +3,7 @@ sidebarDepth: 0
 ---
 # Image
 
-This is an overview of the most common usage of Image.
+This is an overview of the most common usage of `<Image>`.
 
 Displaying an image relative to the app directory
 

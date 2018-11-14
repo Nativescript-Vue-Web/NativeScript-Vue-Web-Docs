@@ -4,7 +4,7 @@ sidebarDepth: 0
 
 # TextView
 
-This is an overview of the most common usage of TextView.
+This is an overview of the most common usage of `<TextView>`.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/w61lryop88">
 ```html

@@ -3,7 +3,7 @@ sidebarDepth: 0
 ---
 # ScrollView
 
-This is an overview of the most common usage of ScrollView.
+This is an overview of the most common usage of `<ScrollView>`.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/y3jzz2v5mv">
 
@@ -18,6 +18,19 @@ This is an overview of the most common usage of ScrollView.
   </StackLayout>
 </ScrollView>
 
+```
+
+```scss
+.scroll-view {
+  &__horizontal {
+    width: 150px;
+  }
+  &__vertical {
+    height: 100px;
+    width: 150px;
+    margin-top: 15px;
+  }
+}
 ```
 
 <ScrollViewDoc />

@@ -4,7 +4,7 @@ sidebarDepth: 0
 
 # TextField
 
-This is an overview of the most common usage of TextField.
+This is an overview of the most common usage of `<TextField>`.
 
 ```html
 <TextField :text="textFieldValue" hint="Enter text..." />

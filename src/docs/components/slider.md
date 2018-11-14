@@ -4,7 +4,7 @@ sidebarDepth: 0
 
 # Slider
 
-This is an overview of the most common usage of Slider.
+This is an overview of the most common usage of `<Slider>`.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/8l36nz28p8">
 

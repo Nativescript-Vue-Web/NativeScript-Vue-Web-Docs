@@ -3,7 +3,7 @@ sidebarDepth: 0
 ---
 # Label
 
-This is an overview of the most common usage of Label.
+This is an overview of the most common usage of `<Label>`.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/lrn8qy0yv9">
 

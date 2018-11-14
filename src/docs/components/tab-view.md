@@ -4,7 +4,7 @@ sidebarDepth: 0
 
 # TabView
 
-This is an overview of the most common usage of TabView and TabViewItem.
+This is an overview of the most common usage of `<TabView>` and `<TabViewItem>`.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/30vr9xw6nm">
 ```html

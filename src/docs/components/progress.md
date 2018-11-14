@@ -3,7 +3,7 @@ sidebarDepth: 0
 ---
 # Progress
 
-This is an overview of the most common usage of Progress.
+This is an overview of the most common usage of `<Progress>`.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/zkm7o31o6x">
 

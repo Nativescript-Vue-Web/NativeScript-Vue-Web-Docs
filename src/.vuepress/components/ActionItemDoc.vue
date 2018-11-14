@@ -1,23 +1,26 @@
 <template>
+  <StackLayout>
     <ActionBar title="My App">
       <ActionItem @tap="onTapShare"
         ios.systemIcon="9" ios.position="left"
         android.systemIcon="ic_menu_share" android.position="actionBar" webIcon="fa fa-share" />
-      <ActionItem @tap="onTapDelete"
-        ios.systemIcon="16" ios.position="right"
-        text="delete" android.position="popup" webIcon="fa fa-remove" />
+    <ActionItem @tap="onTapDelete"
+      ios.systemIcon="16" ios.position="right"
+      text="delete" android.position="popup" webIcon="fa fa-remove" />
     </ActionBar>
+  </StackLayout>
 </template>
 
 <script>
-import { ActionBar, ActionItem, Label } from "nativescript-vue-web";
+import { ActionBar, ActionItem, Label, StackLayout } from "nativescript-vue-web";
 
 export default {
-  name: "app",
+  name: "ActionItemDoc",
   components: {
     ActionBar,
     ActionItem,
-    Label
+    Label,
+    StackLayout
   },
   methods: {
     onTapShare() {
@@ -31,17 +34,9 @@ export default {
 </script>
 
 <style lang="scss">
-body {
-  text-align: center;
-  background-color: #ebebeb;
-}
-#app {
-  width: 100%;
-}
-
 @font-face {
   font-family: "FontAwesome";
-  src: url("../public/fonts/fontawesome-webfont.ttf") format("truetype");
+  src: url("/fonts/fontawesome-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

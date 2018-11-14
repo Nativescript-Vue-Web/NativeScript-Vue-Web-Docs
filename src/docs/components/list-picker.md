@@ -3,7 +3,7 @@ sidebarDepth: 0
 ---
 # ListPicker
 
-This is an overview of the most common usage of ListPicker.
+This is an overview of the most common usage of `<ListPicker>`.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/l9l6o34mvm">
 

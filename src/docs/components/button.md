@@ -4,7 +4,7 @@ sidebarDepth: 0
 
 # Button
 
-This is an overview of the most common usage of Button.
+This is an overview of the most common usage of `<Button>`.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/n5y3lym66p">
 

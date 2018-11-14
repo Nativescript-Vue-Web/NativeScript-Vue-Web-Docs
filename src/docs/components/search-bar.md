@@ -4,7 +4,7 @@ sidebarDepth: 0
 
 # Search Bar
 
-This is an overview of the most common usage of SearchBar.
+This is an overview of the most common usage of `<SearcBar>`.
 
 `<SearchBar>` is a UI component that provides a user interface for entering search queries and submitting requests to the search provider.
 

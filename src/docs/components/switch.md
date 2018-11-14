@@ -4,7 +4,7 @@ sidebarDepth: 0
 
 # Switch
 
-This is an overview of the most common usage of Switch.
+This is an overview of the most common usage of `<Switch>`.
 
 > "Switcher" is being used in the implementation thus, Switch word is a reserved one for VueJs.
 

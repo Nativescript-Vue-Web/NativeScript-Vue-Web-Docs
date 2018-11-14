@@ -4,7 +4,7 @@ sidebarDepth: 0
 
 # HtmlView
 
-This is an overview of the most common usage of HtmlView.
+This is an overview of the most common usage of `<HtmlView>`.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/4ro87o5m0x">
 

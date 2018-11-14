@@ -4,7 +4,7 @@ sidebarDepth: 0
 
 # ActivityIndicator
 
-This is an overview of the most common usage of ActivityIndicator.
+This is an overview of the most common usage of `<ActivityIndicator>`.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/l52zmow45q">
 

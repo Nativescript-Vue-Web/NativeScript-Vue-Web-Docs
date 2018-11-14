@@ -1,5 +1,5 @@
 <template>
-  <StackLayout >
+  <StackLayout>
     <ActionBar title="My App">
       <ActionItem @tap="onTapShare"
         ios.systemIcon="9" ios.position="left"
@@ -44,10 +44,10 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 @font-face {
   font-family: "FontAwesome";
-  src: url("../public/fonts/fontawesome-webfont.ttf") format("truetype");
+  src: url("/fonts/fontawesome-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
