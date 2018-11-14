@@ -8,7 +8,7 @@
 import { Button, StackLayout } from "nativescript-vue-web";
 
 export default {
-  name: "ConfrimDialogDoc",
+  name: "LoginDialogDoc",
   methods: {
     showLoginDialog: function() {
       login({

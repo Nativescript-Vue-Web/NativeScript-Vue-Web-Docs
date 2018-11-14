@@ -64,6 +64,7 @@ module.exports = {
           children: [
             "dialogs/confirm-dialog",
             "dialogs/login-dialog",
+            "dialogs/prompt-dialog",
           ]
         }
       ]
