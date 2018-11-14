@@ -49,6 +49,7 @@ module.exports = {
             "components/html-view",
             "components/image",
             "components/label",
+            "components/list-picker",
             "components/progress",
             "components/scroll-view",
             "components/search-bar",
@@ -59,8 +60,9 @@ module.exports = {
             "components/text-field",
             "components/text-view",
             "components/time-picker",
+            "components/html-view",
             "components/web-view",
-            "components/frame",
+            "components/frame"
           ]
         },
         {
