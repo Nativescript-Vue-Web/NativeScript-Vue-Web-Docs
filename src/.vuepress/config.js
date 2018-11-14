@@ -63,6 +63,7 @@ module.exports = {
           collapsable: false,
           children: [
             "dialogs/confirm-dialog",
+            "dialogs/login-dialog",
           ]
         }
       ]
