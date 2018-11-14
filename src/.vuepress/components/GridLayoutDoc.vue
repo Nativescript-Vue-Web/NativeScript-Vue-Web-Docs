@@ -17,6 +17,6 @@ export default {
 
  <style lang="scss" scoped>
 .grid {
-  margin-bottom: 1px;
+  margin-bottom: 12px;
 }
 </style>

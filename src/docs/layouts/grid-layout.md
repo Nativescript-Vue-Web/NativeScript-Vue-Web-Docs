@@ -6,13 +6,12 @@ sidebarDepth: 0
 
 This is an overview of the most common usage of GridLayout.
 `GridLayout` is a layout container that lets you arrange its child in a table-like manner.
-
-> The following example creates a simple 2-by-2 grid with fixed column widths and row heights.
+The following example creates a simple 2-by-2 grid with fixed column widths and row heights.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/l9083jq48q">
 
 ```html
-  <GridLayout class="container" width="200" height="220" columns="115, 115" rows="115, 115">
+  <GridLayout class="grid" width="200" height="220" columns="115, 115" rows="115, 115">
     <Label text="0,0" row="0" col="0" backgroundColor="#43b883"/>
     <Label text="0,1" row="0" col="1" backgroundColor="#1c6b48"/>
     <Label text="1,0" row="1" col="0" backgroundColor="#289062"/>
@@ -23,7 +22,7 @@ This is an overview of the most common usage of GridLayout.
 <GridLayoutDoc />
 </DocExampleBox>
 
-> The following example creates a grid with responsive design, where space is alotted proportionally to child elements.
+The following example creates a grid with responsive design, where space is alotted proportionally to child elements.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/l9083jq48q">
 
@@ -39,7 +38,7 @@ This is an overview of the most common usage of GridLayout.
 <GridLayoutResponsiveDoc />
 </DocExampleBox>
 
-> The following example creates a complex grid with responsive design, mixed width and height settings, and some merged cells.
+The following example creates a complex grid with responsive design, mixed width and height settings, and some merged cells.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/l9083jq48q">
 
@@ -66,8 +65,6 @@ This is an overview of the most common usage of GridLayout.
 | rows    | String |         | ✔   | ✔      |
 
 ## Additional Children Props
-
-> When an element is a direct child of `<FlexboxLayout>`, you can work with the following additional properties.
 
 | Name    | Type   | Default | Web | Mobile |
 | ------- | ------ | ------- | --- | ------ |

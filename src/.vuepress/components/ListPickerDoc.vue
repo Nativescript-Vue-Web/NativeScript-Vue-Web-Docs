@@ -1,17 +1,15 @@
 <template>
-  <StackLayout>
-    <ListPicker v-model="selectedIndex" :items="listOfItems" @selectedIndexChange="selectedIndexChanged" />
-  </StackLayout>
+    <ListPicker class="listpicker" v-model="selectedIndex" :items="listOfItems" @selectedIndexChange="selectedIndexChanged" />
 </template>
 
 <script>
-import { listPicker, StackLayout } from "nativescript-vue-web";
+import { ListPicker, StackLayout } from "nativescript-vue-web";
 export default {
   name: "listPickerDoc",
-  components: { listPicker, StackLayout },
+  components: { ListPicker, StackLayout },
   data() {
     return {
-      selectedIndex: 1,
+      selectedIndex: 0,
       listOfItems: [
         "Yiğit",
         "Tümay",
@@ -33,5 +31,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.listpicker {
+width: 150px;
+}
 </style>
 
