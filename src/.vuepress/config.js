@@ -56,6 +56,10 @@ module.exports = {
             "components/time-picker",
             "components/html-view",
             "components/web-view",
+            "components/image",
+            "components/label",
+            "components/progress",
+            "components/scroll-view"
           ]
         },
         {
