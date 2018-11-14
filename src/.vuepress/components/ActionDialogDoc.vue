@@ -7,7 +7,7 @@
 <script>
 import { Button, StackLayout } from "nativescript-vue-web";
 export default {
-  name: "AbsoluteLayoutDoc",
+  name: "ActionDialogDoc",
   components: { Button, StackLayout },
   methods: {
     showActionDialog: function() {
@@ -20,7 +20,4 @@ export default {
   }
 };
 </script>
-
-<style lang="scss" scoped>
-</style>
 

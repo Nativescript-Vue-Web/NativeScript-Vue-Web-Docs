@@ -70,6 +70,7 @@ module.exports = {
           collapsable: false,
           children: [
             "dialogs/action-dialog",
+            "dialogs/alert-dialog",
             "dialogs/confirm-dialog",
             "dialogs/login-dialog",
             "dialogs/prompt-dialog"
