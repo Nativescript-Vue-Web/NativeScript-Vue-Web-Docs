@@ -59,7 +59,8 @@ module.exports = {
             "components/image",
             "components/label",
             "components/progress",
-            "components/scroll-view"
+            "components/scroll-view",
+            "components/list-picker",
           ]
         },
         {
