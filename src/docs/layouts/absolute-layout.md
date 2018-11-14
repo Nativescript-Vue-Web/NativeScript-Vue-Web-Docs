@@ -1,6 +1,7 @@
 ---
 sidebarDepth: 0
 ---
+
 # Absolute Layout
 
 The `<AbsoluteLayout>` container is the simplest layout container in NativeScript.

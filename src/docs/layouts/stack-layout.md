@@ -8,11 +8,12 @@
 
 ```html
 <StackLayout class="container__layout" backgroundColor="#3c495e">
-        <Label text="first" height="70" backgroundColor="#43b883"/>
-        <Label text="second" height="70" backgroundColor="#289062"/>
-        <Label text="third" height="70" backgroundColor="#1c6b48"/>
-    </StackLayout>
+  <Label text="first" height="70" backgroundColor="#43b883"/>
+  <Label text="second" height="70" backgroundColor="#289062"/>
+  <Label text="third" height="70" backgroundColor="#1c6b48"/>
+</StackLayout>
 ```
+
 <StackLayoutDoc />
 </DocExampleBox>
 
@@ -27,6 +28,7 @@
   <Label text="third" width="70" backgroundColor="#1c6b48"/>
 </StackLayout>
 ```
+
 <StackLayoutHorizontalDoc />
 </DocExampleBox>
 
@@ -46,6 +48,7 @@
          height="70" backgroundColor="#43b883"/>
 </StackLayout>
 ```
+
 <StackLayoutHorizontalChildrenDoc />
 </DocExampleBox>
 
@@ -65,17 +68,9 @@
          width="70" backgroundColor="#43b883"/>
 </StackLayout>
 ```
+
 <StackLayoutVerticalChildrenDoc />
 </DocExampleBox>
-
-
-
-
-
-
-
-
-
 
 #### Props
 

@@ -1,13 +1,14 @@
+---
+sidebarDepth: 0
+---
+
 # TextField
 
 This is an overview of the most common usage of TextField.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/l764j9p8pl">
 ```html
 <TextField :text="textFieldValue" hint="Enter text..." />
 ```
-<TextFieldDoc />
-</DocExampleBox>
 
 `TextField` provides two-way data binding using v-model.
 
@@ -19,6 +20,33 @@ hint="This is placeholder"
 @returnPress="textFieldreturnPress"
 @textChange="textFieldtextChange" />
 ```
+
+<DocExampleBox codeBox="https://codesandbox.io/s/l764j9p8pl">
+
+```html
+<TextField
+      v-model="textFieldInput"
+      @textChange="textFieldOnChange"
+      @input="textFieldOnInput"
+      @focus="textFieldOnFocus"
+      @blur="textFieldOnBlur"
+      @returnPress="textFieldOnReturnPress"
+      :editable="true"
+      keyboardType="email"
+    />
+```
+
+```js
+textFieldOnChange: event => console.log("Change event :", event),
+textFieldOnInput: event => console.log("Input event :", event),
+textFieldOnFocus: event => console.log("Focus event :", event),
+textFieldOnBlur: event => console.log("Blur event :", event),
+textFieldOnReturnPress: event => console.log("Return Press event :", event)
+```
+
+<TextFieldDoc />
+</DocExampleBox>
+
 #### Props
 
 | Name          | Type                                              | Default | Web | Mobile |

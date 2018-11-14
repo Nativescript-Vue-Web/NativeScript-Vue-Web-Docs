@@ -1,10 +1,10 @@
 ---
 sidebarDepth: 0
 ---
+
 # Dock Layout
 
 The `<DockLayout>` is a layout container that lets you dock child elements to the sides or the center of the layout.
-
 
 <DocExampleBox codeBox="https://codesandbox.io/s/1zlq9x6954">
 
@@ -28,7 +28,6 @@ The `<DockLayout>` is a layout container that lets you dock child elements to th
 
 <DockLayoutDoc />
 </DocExampleBox>
-
 
 ## Props
 

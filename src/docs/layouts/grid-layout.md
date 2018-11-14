@@ -1,10 +1,12 @@
 ---
 sidebarDepth: 0
 ---
+
 # Grid Layout
 
 This is an overview of the most common usage of GridLayout.
 `GridLayout` is a layout container that lets you arrange its child in a table-like manner.
+
 > The following example creates a simple 2-by-2 grid with fixed column widths and row heights.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/l9083jq48q">
@@ -33,6 +35,7 @@ This is an overview of the most common usage of GridLayout.
     <Label text="1,1" row="1" col="1" backgroundColor="#43b883"/>
   </GridLayout>
 ```
+
 <GridLayoutResponsiveDoc />
 </DocExampleBox>
 
@@ -62,11 +65,9 @@ This is an overview of the most common usage of GridLayout.
 | columns | String |         | ✔   | ✔      |
 | rows    | String |         | ✔   | ✔      |
 
-
 ## Additional Children Props
 
 > When an element is a direct child of `<FlexboxLayout>`, you can work with the following additional properties.
-
 
 | Name    | Type   | Default | Web | Mobile |
 | ------- | ------ | ------- | --- | ------ |
@@ -79,4 +80,3 @@ This is an overview of the most common usage of GridLayout.
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/layouts/grid-layout/)
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_layouts_grid_layout_)
-

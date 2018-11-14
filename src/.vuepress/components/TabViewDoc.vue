@@ -21,18 +21,18 @@ export default {
   components: { TabView, TabViewItem, StackLayout, Label },
   data() {
     return {
-      selectedIndex: 0,
+      selectedIndex: 0
     };
   },
   methods: {
-    changed: index => console.log('selectedIndexChanged', index), // eslint-disable-line
-  },
+    changed: index => console.log("selectedIndexChanged", index) // eslint-disable-line
+  }
 };
 </script>
 
 <style scoped lang="scss">
 .container {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;

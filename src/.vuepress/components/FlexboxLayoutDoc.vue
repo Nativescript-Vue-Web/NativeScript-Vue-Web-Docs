@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import {FlexboxLayout, Label} from "nativescript-vue-web";
+import { FlexboxLayout, Label } from "nativescript-vue-web";
 export default {
   name: "FlexboxLayoutDoc",
   components: { FlexboxLayout, Label }

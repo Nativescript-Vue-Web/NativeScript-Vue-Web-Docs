@@ -1,5 +1,5 @@
 <template>
-    <TextView v-model="textViewInput"  :editable=true />
+    <TextView text="Multi\nLine\nText" />
 </template>
  
 <script>

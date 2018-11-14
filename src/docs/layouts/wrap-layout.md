@@ -2,7 +2,7 @@
 
 `<WrapLayout>` is a layout container that lets you stack the child elements vertically (default) or horizontally.
 
->  The following example creates a row of equally-sized items. When the row runs out of space, the container wraps the last item on a new row.
+> The following example creates a row of equally-sized items. When the row runs out of space, the container wraps the last item on a new row.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/xmj262j64">
 
@@ -14,12 +14,14 @@
   <Label text="fourth" class="wrapLayoutItem" backgroundColor="#289062"/>
 </WrapLayout>
 ```
+
 ```scss
 .wrapLayoutItem {
   width: 140px;
   height: 140px;
 }
 ```
+
 <WrapLayoutDoc />
 </DocExampleBox>
 
@@ -35,12 +37,14 @@
   <Label text="fourth" class="wrapLayoutItem" backgroundColor="#289062"/>
 </WrapLayout>
 ```
+
 ```scss
 .wrapLayoutItem {
   width: 140px;
   height: 140px;
 }
 ```
+
 <WrapLayoutEqualColumnDoc />
 </DocExampleBox>
 
