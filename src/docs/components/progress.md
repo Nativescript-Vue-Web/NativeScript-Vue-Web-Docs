@@ -8,7 +8,11 @@ This is an overview of the most common usage of Progress.
 <DocExampleBox codeBox="https://codesandbox.io/s/zkm7o31o6x">
 
 ```html
-  <Progress :value="currentProgress" @valueChange="progressChange" :maxValue="maxValueProgress" />
+  <StackLayout class="progress">
+    <Label text="Default Progress" />
+    <Progress :value="currentProgress" @valueChange="progressChange" :maxValue="maxValueProgress" />
+    <Button @tap="incrementValue" text="Increment" class="progress__button" />
+  </StackLayout>
 
 ```
 

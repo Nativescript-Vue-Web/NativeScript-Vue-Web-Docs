@@ -18,6 +18,11 @@ Displaying an image relative to the app directory
 
 Displaying an image from a URL
 
+```html
+<Img src="https://art.nativescript-vue.org/NativeScript-Vue-White-Green.png" stretch="fill" />
+```
+
+
 ## Props
 
 | Name      | Type                                      | Default | Web | Mobile |

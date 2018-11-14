@@ -1,12 +1,16 @@
 <template>
-  <Progress :value="currentProgress" @valueChange="progressChange" :maxValue="maxValueProgress" />
+  <StackLayout class="progress">
+    <Label text="Default Progress" />
+    <Progress :value="currentProgress" @valueChange="progressChange" :maxValue="maxValueProgress" />
+    <Button @tap="incrementValue" text="Increment" class="progress__button" />
+  </StackLayout>
 </template>
 
 <script>
-import { Progress } from "nativescript-vue-web";
+import { StackLayout, Progress, Label, Button } from "nativescript-vue-web";
 export default {
   name: "ProgressDoc",
-  components: { Progress },
+  components: { StackLayout, Progress, Label, Button },
   data() {
     return {
       currentProgress: 10,
@@ -25,4 +29,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.progress {
+  &__button {
+    width: 100px;
+    margin-top: 20px;
+  }
+}
 </style>
