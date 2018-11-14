@@ -8,11 +8,11 @@ export default {
   name: "WebViewDoc",
   methods: {
     webViewLoadStarted(event) {
-    console.log("WebView Loading Started");
+      console.log("WebView Loading Started");
     },
     webViewLoadFinished(event) {
-    console.log("WebView Loading finished.");
-    },
+      console.log("WebView Loading finished.");
+    }
   },
   components: { WebView }
 };

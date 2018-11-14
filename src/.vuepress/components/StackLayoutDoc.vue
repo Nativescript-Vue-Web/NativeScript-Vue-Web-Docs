@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import {StackLayout, Label } from "nativescript-vue-web";
+import { StackLayout, Label } from "nativescript-vue-web";
 export default {
   name: "StackLayoutDoc",
   components: { StackLayout, Label }
@@ -16,8 +16,8 @@ export default {
 
 <style lang="scss" scoped>
 .stack {
-  width:100%;
+  width: 100%;
   height: 100%;
-  min-height:300px
+  min-height: 300px;
 }
 </style>

@@ -19,6 +19,7 @@ confirm("Your message").then(result => {
 ```html
 <Button text="Show Confirm Dialog" width="200" @tap="showConfirmDialog" />
 ```
+
 ```js
 showConfirmDialog: function() {
     confirm("Your title", "Your message", "OK", "Cancel").then(() => {

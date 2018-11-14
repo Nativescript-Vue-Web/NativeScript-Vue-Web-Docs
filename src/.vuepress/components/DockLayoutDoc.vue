@@ -18,18 +18,18 @@
 </template>
 
 <script>
-  import { StackLayout, DockLayout} from "nativescript-vue-web";
-  export default {
-    name: "DockLayoutDoc",
-    components: {StackLayout, DockLayout}
-  }
+import { StackLayout, DockLayout } from "nativescript-vue-web";
+export default {
+  name: "DockLayoutDoc",
+  components: { StackLayout, DockLayout }
+};
 </script>
 
 <style lang="scss" scoped>
-  .dock{
-    width: 300px;
-    height: 150px;
-    margin-bottom: 30px;
-    background-color: #3c495e;
-  }
+.dock {
+  width: 300px;
+  height: 150px;
+  margin-bottom: 30px;
+  background-color: #3c495e;
+}
 </style>

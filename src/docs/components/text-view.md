@@ -1,3 +1,7 @@
+---
+sidebarDepth: 0
+---
+
 # TextView
 
 This is an overview of the most common usage of TextView.
@@ -8,7 +12,6 @@ This is an overview of the most common usage of TextView.
 ```
 <TextViewDoc />
 </DocExampleBox>
-
 
 `TextView` provides two-way data binding using v-model.
 

@@ -1,6 +1,7 @@
 ---
 sidebarDepth: 0
 ---
+
 # HtmlView
 
 This is an overview of the most common usage of HtmlView.

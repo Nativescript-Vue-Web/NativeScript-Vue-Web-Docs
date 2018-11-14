@@ -1,9 +1,10 @@
 ---
 sidebarDepth: 0
 ---
+
 # Flexbox Layout
 
-The `<FlexboxLayout>`  helps to adjust child components both horizontally and vertically.
+The `<FlexboxLayout>` helps to adjust child components both horizontally and vertically.
 
 > The following example creates a row of three equally-sized elements that span across the entire height of the screen.
 
@@ -31,6 +32,7 @@ The `<FlexboxLayout>`  helps to adjust child components both horizontally and ve
       <Label text="third" height="70" backgroundColor="#289062"/>
   </FlexboxLayout>
 ```
+
 <FlexboxLayoutColumnDoc />
 </DocExampleBox>
 
@@ -67,7 +69,6 @@ The `<FlexboxLayout>`  helps to adjust child components both horizontally and ve
 
 > When an element is a direct child of `<FlexboxLayout>`, you can work with the following additional properties.
 
-
 | Name           | Type    | Default   | Web | Mobile |
 | -------------- | ------- | --------- | --- | ------ |
 | order          | Number  |           | ✔   | ✔      |
@@ -75,6 +76,7 @@ The `<FlexboxLayout>`  helps to adjust child components both horizontally and ve
 | flexShrink     | Number  | `1`       | ✔   | ✔      |
 | alignSelf      | String  | `stretch` | ✔   | ✔      |
 | flexWrapBefore | Boolean | `false`   | ✔   | ✔      |
+
 ## References
 
 > For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/layouts/flexbox-layout/)

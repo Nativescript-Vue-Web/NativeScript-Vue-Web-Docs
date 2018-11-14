@@ -1,6 +1,7 @@
 ---
 sidebarDepth: 0
 ---
+
 # ActivityIndicator
 
 This is an overview of the most common usage of ActivityIndicator.
@@ -21,7 +22,6 @@ This is an overview of the most common usage of ActivityIndicator.
 | Name | Type    | Default | Web | Mobile |
 | ---- | ------- | ------- | --- | ------ |
 | busy | boolean |         | ✔   | ✔      |
-
 
 ## Events
 

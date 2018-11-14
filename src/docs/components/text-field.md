@@ -1,3 +1,7 @@
+---
+sidebarDepth: 0
+---
+
 # TextField
 
 This is an overview of the most common usage of TextField.
@@ -19,6 +23,7 @@ hint="This is placeholder"
 @returnPress="textFieldreturnPress"
 @textChange="textFieldtextChange" />
 ```
+
 #### Props
 
 | Name          | Type                                              | Default | Web | Mobile |

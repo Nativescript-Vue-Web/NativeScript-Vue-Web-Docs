@@ -18,7 +18,7 @@ export default {
         "Cancel"
       ).then(result => {
         if (result) {
-          console.log('Entered Text:', result.value);
+          console.log("Entered Text:", result.value);
         }
       });
     }

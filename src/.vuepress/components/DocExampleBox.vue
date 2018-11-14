@@ -112,7 +112,7 @@ export default {
       flex: 0 0 90px;
       text-align: center;
 
-      a:hover{
+      a:hover {
         cursor: pointer;
       }
     }

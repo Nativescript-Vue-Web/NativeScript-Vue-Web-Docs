@@ -28,6 +28,6 @@ export default {
   font-family: "FontAwesome";
 }
 .fa-arrow-left:before {
-  content: "\f060"; 
+  content: "\f060";
 }
 </style>
