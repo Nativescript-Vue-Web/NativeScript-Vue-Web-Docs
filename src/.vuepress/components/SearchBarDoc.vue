@@ -1,5 +1,5 @@
 <template>
-    <SearchBar hint="Search hint" :text="searchPhrase"  @submit="onSubmit" @input="onInput" />
+    <SearchBar hint="Search hint" :text="searchPhrase"  @submit="onSubmit" />
 </template>
 
 <script>

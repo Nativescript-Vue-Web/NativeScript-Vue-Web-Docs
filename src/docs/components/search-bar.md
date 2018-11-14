@@ -10,7 +10,7 @@ This is an overview of the most common usage of SearchBar.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/m7yz90mn6p">
 ```html
-<SearchBar hint="Search hint" :text="searchPhrase"  @submit="onSubmit" />
+<SearchBar hint="Search hint" :text="searchPhrase" />
 ```
 ```js
 onSubmit(){
