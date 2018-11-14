@@ -69,6 +69,7 @@ module.exports = {
           title: "Dialogs",
           collapsable: false,
           children: [
+            "dialogs/action-dialog",
             "dialogs/confirm-dialog",
             "dialogs/login-dialog",
             "dialogs/prompt-dialog"
