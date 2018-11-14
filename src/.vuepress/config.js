@@ -59,7 +59,8 @@ module.exports = {
             "components/text-field",
             "components/text-view",
             "components/time-picker",
-            "components/web-view"
+            "components/web-view",
+            "components/frame",
           ]
         },
         {
