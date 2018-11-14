@@ -29,10 +29,10 @@ module.exports = {
           children: [
             "layouts/absolute-layout",
             "layouts/dock-layout",
-            "layouts/stack-layout",
             "layouts/flexbox-layout",
-            "layouts/wrap-layout",
-            "layouts/grid-layout"
+            "layouts/grid-layout",
+            "layouts/stack-layout",
+            "layouts/wrap-layout"
           ]
         },
         {
@@ -44,22 +44,22 @@ module.exports = {
           title: "Components",
           collapsable: false,
           children: [
+            "components/activity-indicator",
+            "components/button",
+            "components/html-view",
+            "components/image",
+            "components/label",
+            "components/progress",
+            "components/scroll-view",
             "components/search-bar",
             "components/segmented-bar",
             "components/slider",
             "components/switch",
             "components/tab-view",
-            "components/activity-indicator",
             "components/text-field",
             "components/text-view",
-            "components/button",
             "components/time-picker",
-            "components/html-view",
-            "components/web-view",
-            "components/image",
-            "components/label",
-            "components/progress",
-            "components/scroll-view"
+            "components/web-view"
           ]
         },
         {
@@ -68,7 +68,7 @@ module.exports = {
           children: [
             "dialogs/confirm-dialog",
             "dialogs/login-dialog",
-            "dialogs/prompt-dialog",
+            "dialogs/prompt-dialog"
           ]
         }
       ]
