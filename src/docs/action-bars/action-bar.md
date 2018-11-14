@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 0
 ---
-# ActionBar
+# Action Bar
 
 The `<ActionBar>` component is a NativeScript abstraction for the Android ActionBar, iOS NavigationBar and Web Toolbar.
 

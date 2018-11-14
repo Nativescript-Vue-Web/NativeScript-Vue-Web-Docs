@@ -2,7 +2,7 @@
 sidebarDepth: 0
 ---
 
-# ActivityIndicator
+# Activity Indicator
 
 This is an overview of the most common usage of `<ActivityIndicator>`.
 

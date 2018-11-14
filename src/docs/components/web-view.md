@@ -2,7 +2,7 @@
 sidebarDepth: 0
 ---
 
-# WebView
+# Web View
 
 `<WebView>` is a UI component that lets you show web content in your app. You can pull and show content from a URL or a local HTML file, or you can render static HTML content.
 

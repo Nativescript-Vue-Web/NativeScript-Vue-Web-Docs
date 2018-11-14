@@ -2,7 +2,7 @@
 sidebarDepth: 0
 ---
 
-# TextField
+# Text Field
 
 This is an overview of the most common usage of `<TextField>`.
 

@@ -2,7 +2,7 @@
 sidebarDepth: 0
 ---
 
-# LoginDialog
+# Login Dialog
 
 This is an overview of the most common usage of LoginDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for LoginDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#login).
 

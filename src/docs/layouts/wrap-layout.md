@@ -1,3 +1,7 @@
+---
+sidebarDepth: 0
+---
+
 # Wrap Layout
 
 `<WrapLayout>` is a layout container that lets you stack the child elements vertically (default) or horizontally.

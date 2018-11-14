@@ -1,3 +1,7 @@
+---
+sidebarDepth: 0
+---
+
 # Stack Layout
 
 `<StackLayout>` is a layout container that lets you stack the child elements vertically (default) or horizontally.

@@ -1,3 +1,7 @@
+---
+sidebarDepth: 0
+---
+
 # Frame
 
 `<Frame>` is a UI component used to display `<Page>` elements.

@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 0
 ---
-# ScrollView
+# Scroll View
 
 This is an overview of the most common usage of `<ScrollView>`.
 

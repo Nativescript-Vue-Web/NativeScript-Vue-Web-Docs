@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 0
 ---
-# ActionItem
+# Action Item
 
 The `<ActionItem>` component is used to add additional action buttons to the ActionBar.
 

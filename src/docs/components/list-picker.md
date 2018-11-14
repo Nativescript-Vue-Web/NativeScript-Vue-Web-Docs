@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 0
 ---
-# ListPicker
+# List Picker
 
 This is an overview of the most common usage of `<ListPicker>`.
 

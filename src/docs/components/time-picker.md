@@ -2,7 +2,7 @@
 sidebarDepth: 0
 ---
 
-# TimePicker
+# Time Picker
 
 `<TimePicker>` is a UI component that lets users select time.
 

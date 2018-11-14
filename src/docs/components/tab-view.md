@@ -2,7 +2,7 @@
 sidebarDepth: 0
 ---
 
-# TabView
+# Tab View
 
 This is an overview of the most common usage of `<TabView>` and `<TabViewItem>`.
 

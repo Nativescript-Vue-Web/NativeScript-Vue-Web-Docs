@@ -2,7 +2,7 @@
 sidebarDepth: 0
 ---
 
-# ActionDialog
+# Action Dialog
 
 This is an overview of the most common usage of ActionDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for ActionDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#action).
 

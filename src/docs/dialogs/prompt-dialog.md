@@ -2,7 +2,7 @@
 sidebarDepth: 0
 ---
 
-# PromptDialog
+# Prompt Dialog
 
 This is an overview of the most common usage of PromptDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for PromptDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#prompt).
 

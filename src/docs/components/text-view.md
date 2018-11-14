@@ -2,7 +2,7 @@
 sidebarDepth: 0
 ---
 
-# TextView
+# Text View
 
 This is an overview of the most common usage of `<TextView>`.
 
