@@ -19,6 +19,12 @@ The following example creates a simple 2-by-2 grid with fixed column widths and 
   </GridLayout>
 ```
 
+```scss
+.grid {
+  margin-bottom: 12px;
+}
+```
+
 <GridLayoutDoc />
 </DocExampleBox>
 

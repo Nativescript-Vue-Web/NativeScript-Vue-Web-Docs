@@ -16,6 +16,24 @@ This is an overview of the most common usage of Progress.
 
 ```
 
+```js
+ progressChange: function(newValue, oldValue) {
+    alert("Progress Changed " + oldValue + " to " + newValue);
+  },
+  incrementValue() {
+    this.currentProgress += 10;
+  }
+```
+
+```scss
+.progress {
+  &__button {
+    width: 100px;
+    margin-top: 20px;
+  }
+}
+```
+
 <ProgressDoc />
 </DocExampleBox>
 

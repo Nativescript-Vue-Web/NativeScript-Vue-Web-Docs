@@ -3,7 +3,7 @@
         <NavigationButton text="Go back" @tap="goBack" webIcon="fa fa-arrow-left" />
     </ActionBar>
 </template>
- 
+
 <script>
 import { ActionBar, NavigationButton } from "nativescript-vue-web";
 export default {
@@ -20,7 +20,7 @@ export default {
 <style scoped lang="scss">
 @font-face {
   font-family: "FontAwesome";
-  src: url("/fonts/fontawesome-webfont.ttf") format("truetype");
+  src: url("../public/fonts/fontawesome-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

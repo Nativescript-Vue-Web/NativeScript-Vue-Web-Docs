@@ -6,12 +6,7 @@
 import { Label } from "nativescript-vue-web";
 export default {
   name: "LabelDoc",
-  components: { Label },
+  components: { Label }
 };
-
 </script>
-
-<style lang="scss" scoped>
-
-</style>
 

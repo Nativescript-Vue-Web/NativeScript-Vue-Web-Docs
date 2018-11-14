@@ -18,6 +18,12 @@ The following example creates a row of three equally-sized elements that span ac
   </FlexboxLayout>
 ```
 
+```scss
+.flexbox {
+  color: #2c3e50;
+}
+```
+
 <FlexboxLayoutDoc />
 </DocExampleBox>
 
@@ -31,6 +37,12 @@ The following example creates a column of three equally-sized elements that span
     <Label text="second" height="70" backgroundColor="#1c6b48"/>
     <Label text="third" height="70" backgroundColor="#289062"/>
   </FlexboxLayout>
+```
+
+```scss
+.flexbox {
+  color: #2c3e50;
+}
 ```
 
 <FlexboxLayoutColumnDoc />
@@ -50,6 +62,12 @@ alignSelf to modify the position of items across the main axis.
     <Label text="third" alignSelf="flex-end" width="70" height="70" backgroundColor="#289062"/>
     <Label text="fourth" height="70" backgroundColor="#289062"/>
   </FlexboxLayout>
+```
+
+```scss
+.flexbox {
+  color: #2c3e50;
+}
 ```
 
 <FlexboxLayoutColumnReverseDoc />

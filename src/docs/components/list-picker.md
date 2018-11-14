@@ -11,6 +11,18 @@ This is an overview of the most common usage of ListPicker.
 <ListPicker v-model="selectedIndex" :items="listOfItems" @selectedIndexChange="selectedIndexChanged" />
 ```
 
+```js
+  selectedIndexChanged(event) {
+      console.log("index changed", this.selectedIndex);
+    }
+```
+
+```scss
+.listpicker {
+width: 150px;
+}
+```
+
 <ListPickerDoc />
 </DocExampleBox>
 
@@ -19,10 +31,10 @@ This is an overview of the most common usage of ListPicker.
 
 ## Props
 
-| Name     | Type    | Default | Web | Mobile |
-| -------- | ------- | ------- | --- | ------ |
-| items     | Array |         | ✔   | ✔      |
-| selectedIndex  | Number |  | ✔   | ✔      |
+| Name          | Type   | Default | Web | Mobile |
+| ------------- | ------ | ------- | --- | ------ |
+| items         | Array  |         | ✔   | ✔      |
+| selectedIndex | Number |         | ✔   | ✔      |
 
 ## Events
 

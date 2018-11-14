@@ -11,6 +11,23 @@ This is an overview of the most common usage of ActivityIndicator.
 ```html
 <ActivityIndicator busy="true" @busyChange="onBusyChanged" />
 ```
+```js
+  onBusyChanged(event) {
+    console.log("Changed: ", event);
+  },
+  changeState() {
+    this.busy = !this.busy;
+  }
+```
+
+```scss
+.activityindicator {
+  &__button {
+    width: 100px;
+    margin-bottom: 50px;
+  }
+}
+```
 
 <ActivityIndicatorDoc />
 </DocExampleBox>

@@ -38,7 +38,11 @@ module.exports = {
         {
           title: "Action Bars",
           collapsable: false,
-          children: ["action-bars/navigation-button"]
+          children: [
+            "action-bars/action-bar",
+            "action-bars/action-item",
+            "action-bars/navigation-button"
+          ]
         },
         {
           title: "Components",
