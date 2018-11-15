@@ -7,6 +7,7 @@ sidebarDepth: 0
 This is an overview of the most common usage of `<TabView>` and `<TabViewItem>`.
 
 <DocExampleBox codeBox="https://codesandbox.io/s/30vr9xw6nm">
+
 ```html
 <TabView :selectedIndex="selectedIndex" @selectedIndexChanged="changed">
     <TabViewItem title="Tab 1" webIcon="fa fa-eye">

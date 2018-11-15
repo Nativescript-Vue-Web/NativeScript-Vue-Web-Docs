@@ -9,7 +9,7 @@ This is an overview of the most common usage of `<Button>`.
 <DocExampleBox codeBox="https://codesandbox.io/s/n5y3lym66p">
 
 ```html
-  <Button text="Button" @tap="onButtonTap" horizontalAlignment="center" />
+<Button text="Button" @tap="onButtonTap" horizontalAlignment="center" />
 ```
 ```js
  onButtonTap() {

@@ -11,11 +11,11 @@ The following example creates a row of three equally-sized elements that span ac
 <DocExampleBox codeBox="https://codesandbox.io/s/y7k675mwx9">
 
 ```html
-  <FlexboxLayout class="flexbox" backgroundColor="#3c495e">
-    <Label text="first" width="70" backgroundColor="#43b883"/>
-    <Label text="second" width="70" backgroundColor="#1c6b48"/>
-    <Label text="third" width="70" backgroundColor="#289062"/>
-  </FlexboxLayout>
+<FlexboxLayout class="flexbox" backgroundColor="#3c495e">
+  <Label text="first" width="70" backgroundColor="#43b883"/>
+  <Label text="second" width="70" backgroundColor="#1c6b48"/>
+  <Label text="third" width="70" backgroundColor="#289062"/>
+</FlexboxLayout>
 ```
 
 ```scss
@@ -32,11 +32,11 @@ The following example creates a column of three equally-sized elements that span
 <DocExampleBox codeBox="https://codesandbox.io/s/y7k675mwx9">
 
 ```html
-  <FlexboxLayout class="flexbox" flexDirection="column" backgroundColor="#3c495e">
-    <Label text="first" height="70" backgroundColor="#43b883"/>
-    <Label text="second" height="70" backgroundColor="#1c6b48"/>
-    <Label text="third" height="70" backgroundColor="#289062"/>
-  </FlexboxLayout>
+<FlexboxLayout class="flexbox" flexDirection="column" backgroundColor="#3c495e">
+  <Label text="first" height="70" backgroundColor="#43b883"/>
+  <Label text="second" height="70" backgroundColor="#1c6b48"/>
+  <Label text="third" height="70" backgroundColor="#289062"/>
+</FlexboxLayout>
 ```
 
 ```scss
@@ -56,12 +56,12 @@ alignSelf to modify the position of items across the main axis.
 <DocExampleBox codeBox="https://codesandbox.io/s/y7k675mwx9">
 
 ```html
-  <FlexboxLayout class="flexbox" flexDirection="column-reverse" justifyContent="space-around" backgroundColor="#3c495e">
-    <Label text="first" height="70" backgroundColor="#43b883"/>
-    <Label text="second" alignSelf="center" width="70" height="70" backgroundColor="#1c6b48"/>
-    <Label text="third" alignSelf="flex-end" width="70" height="70" backgroundColor="#289062"/>
-    <Label text="fourth" height="70" backgroundColor="#289062"/>
-  </FlexboxLayout>
+<FlexboxLayout class="flexbox" flexDirection="column-reverse" justifyContent="space-around" backgroundColor="#3c495e">
+  <Label text="first" height="70" backgroundColor="#43b883"/>
+  <Label text="second" alignSelf="center" width="70" height="70" backgroundColor="#1c6b48"/>
+  <Label text="third" alignSelf="flex-end" width="70" height="70" backgroundColor="#289062"/>
+  <Label text="fourth" height="70" backgroundColor="#289062"/>
+</FlexboxLayout>
 ```
 
 ```scss

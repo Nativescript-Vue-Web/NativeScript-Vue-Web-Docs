@@ -10,7 +10,7 @@ Displaying an image relative to the app directory
 <DocExampleBox codeBox="https://codesandbox.io/s/vnxyxz9553">
 
 ```html
-  <Img src="~/images/logo.png " stretch="none" />
+<Img src="~/images/logo.png " stretch="none" />
 ```
 
 <ImageDoc />
