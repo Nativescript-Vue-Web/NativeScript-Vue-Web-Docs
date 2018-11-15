@@ -1,8 +1,8 @@
 <template>
   <StackLayout>
-    <Frame col="0"  />
+    <Frame />
       <TextView v-model="textViewInput" :editable="true" />
-    <Frame col="1" />
+    <Frame />
       <WebView src="<div><h1>Some static HTML</h1></div>" />
 
   <!--A frame with a default page -->
@@ -37,7 +37,7 @@ export default {
 </script>
 
 <style scoped type="scss">
-.page{
-    padding-left:0
+.page {
+  padding-left: 0;
 }
 </style>

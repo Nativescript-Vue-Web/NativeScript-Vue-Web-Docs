@@ -6,15 +6,6 @@ sidebarDepth: 0
 
 `<Frame>` is a UI component used to display `<Page>` elements.
 
-Multiple Frames
-
-```html
-<GridLayout columns="*, *">
-  <Frame col="0"/>
-  <Frame col="1"/>
-</GridLayout>
-```
-
 A frame with a default page
 
 ```html
@@ -28,12 +19,14 @@ A frame with a default page
 </Frame>
 ```
 
+Multiple Frames
+
 <DocExampleBox codeBox="https://codesandbox.io/s/yjmjyny5jx">
 
 ```html
-<Frame col="0"  />
+<Frame />
   <TextView v-model="textViewInput" :editable="true" />
-  <Frame col="1" />
+  <Frame />
     <WebView src="<div><h1>Some static HTML</h1></div>" />
   <!--A frame with a default page -->
   <Frame>
