@@ -5,10 +5,8 @@
 </template>
 
 <script>
-import { ActionBar, NavigationButton } from "nativescript-vue-web";
 export default {
   name: "NavigationButtonDoc",
-  components: { ActionBar, NavigationButton },
   methods: {
     goBack() {
       alert("goBack");

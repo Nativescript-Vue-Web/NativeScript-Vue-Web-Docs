@@ -7,10 +7,8 @@
 </template>
 
 <script>
-import { StackLayout, Label } from "nativescript-vue-web";
 export default {
-  name: "StackLayoutDoc",
-  components: { StackLayout, Label }
+  name: "StackLayoutDoc"
 };
 </script>
 

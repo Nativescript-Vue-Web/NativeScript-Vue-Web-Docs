@@ -18,10 +18,8 @@
 </template>
 
 <script>
-import { StackLayout, DockLayout } from "nativescript-vue-web";
 export default {
-  name: "DockLayoutDoc",
-  components: { StackLayout, DockLayout }
+  name: "DockLayoutDoc"
 };
 </script>
 

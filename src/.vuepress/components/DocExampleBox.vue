@@ -22,7 +22,6 @@
 </template>
 
 <script>
-import { DockLayout, Label } from "nativescript-vue-web";
 export default {
   name: "NuExample",
   data() {
@@ -35,10 +34,6 @@ export default {
   },
   props: {
     codeBox: String
-  },
-  components: {
-    DockLayout,
-    Label
   },
   computed: {
     contentClass: function() {

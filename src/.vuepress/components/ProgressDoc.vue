@@ -7,10 +7,8 @@
 </template>
 
 <script>
-import { StackLayout, Progress, Label, Button } from "nativescript-vue-web";
 export default {
   name: "ProgressDoc",
-  components: { StackLayout, Progress, Label, Button },
   data() {
     return {
       currentProgress: 10,

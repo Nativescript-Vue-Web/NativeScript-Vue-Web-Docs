@@ -8,10 +8,8 @@
 </template>
 
 <script>
-import { WrapLayout, Label } from "nativescript-vue-web";
 export default {
-  name: "WrapLayoutEqualColumnDoc",
-  components: { WrapLayout, Label }
+  name: "WrapLayoutEqualColumnDoc"
 };
 </script>
 

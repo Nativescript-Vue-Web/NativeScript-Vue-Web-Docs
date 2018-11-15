@@ -8,10 +8,8 @@
 </template>
 
 <script>
-import { FlexboxLayout, Label } from "nativescript-vue-web";
 export default {
-  name: "FlexboxLayoutDoc",
-  components: { FlexboxLayout, Label }
+  name: "FlexboxLayoutDoc"
 };
 </script>
 
@@ -20,4 +18,3 @@ export default {
   color: #2c3e50;
 }
 </style>
-

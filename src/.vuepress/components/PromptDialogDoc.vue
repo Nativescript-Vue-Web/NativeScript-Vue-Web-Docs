@@ -5,8 +5,6 @@
 </template>
 
 <script>
-import { Button, StackLayout } from "nativescript-vue-web";
-
 export default {
   name: "PromptDialogDoc",
   methods: {
@@ -22,11 +20,6 @@ export default {
         }
       });
     }
-  },
-  components: {
-    Button,
-    StackLayout
   }
 };
 </script>
-

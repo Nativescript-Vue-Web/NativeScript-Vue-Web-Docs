@@ -1,4 +1,4 @@
-import { Label, Nvw } from "nativescript-vue-web";
+import * as NVW from "nativescript-vue-web";
 import("./public/style.scss");
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -6,10 +6,16 @@ export default ({
   router // the router instance for the app
 }) => {
   if (typeof document !== "undefined" && typeof window !== "undefined") {
-    Vue.use(Nvw);
+    Object.keys(NVW).forEach(function(key) {
+      if (NVW[key].name) {
+        // Component registration
+        Vue.component(key, NVW[key]);
+      } else if (NVW[key].install) {
+        // Plugin registration
+        Vue.use(NVW[key]);
+      }
+    });
   }
-
-  Vue.component("Label", Label);
 
   router.push("/docs/");
 };

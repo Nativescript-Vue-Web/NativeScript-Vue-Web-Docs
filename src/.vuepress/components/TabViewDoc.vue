@@ -13,12 +13,10 @@
         </TabViewItem>
     </TabView>
 </template>
- 
+
 <script>
-import { TabView, TabViewItem, StackLayout, Label } from "nativescript-vue-web";
 export default {
   name: "TabViewDoc",
-  components: { TabView, TabViewItem, StackLayout, Label },
   data() {
     return {
       selectedIndex: 0

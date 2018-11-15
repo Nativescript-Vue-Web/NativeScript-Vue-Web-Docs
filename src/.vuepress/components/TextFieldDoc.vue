@@ -10,9 +10,8 @@
       keyboardType="email"
     />
 </template>
- 
+
 <script>
-import { TextField } from "nativescript-vue-web";
 export default {
   name: "TextFieldDoc",
   data() {
@@ -26,8 +25,6 @@ export default {
     textFieldOnFocus: event => console.log("Focus event :", event),
     textFieldOnBlur: event => console.log("Blur event :", event),
     textFieldOnReturnPress: event => console.log("Return Press event :", event)
-  },
-  components: { TextField }
+  }
 };
 </script>
-

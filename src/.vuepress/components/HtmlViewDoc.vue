@@ -3,10 +3,8 @@
 </template>
 
 <script>
-import { HtmlView } from "nativescript-vue-web";
 export default {
-  name: "HtmlViewDoc",
-  components: { HtmlView }
+  name: "HtmlViewDoc"
 };
 </script>
 

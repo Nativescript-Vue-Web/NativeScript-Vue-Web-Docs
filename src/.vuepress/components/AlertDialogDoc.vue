@@ -5,10 +5,8 @@
 </template>
 
 <script>
-import { Button, StackLayout } from "nativescript-vue-web";
 export default {
   name: "AlertDialogDoc",
-  components: { Button, StackLayout },
   methods: {
     showAlertDialog: function() {
       alert("Your title", "Your message", "OK").then(() => {

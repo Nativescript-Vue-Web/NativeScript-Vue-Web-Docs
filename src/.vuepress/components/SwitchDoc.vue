@@ -6,9 +6,8 @@
       @checkedChange="switchValueChange"
     />
 </template>
- 
+
 <script>
-import { Switcher } from "nativescript-vue-web";
 export default {
   name: "SwitchDoc",
   data() {
@@ -18,8 +17,6 @@ export default {
   },
   methods: {
     switchValueChange: event => console.log(event)
-  },
-  components: { Switcher }
+  }
 };
 </script>
-

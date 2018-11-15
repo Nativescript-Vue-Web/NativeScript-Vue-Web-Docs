@@ -3,10 +3,8 @@
 </template>
 
 <script>
-import { ListPicker, StackLayout } from "nativescript-vue-web";
 export default {
   name: "listPickerDoc",
-  components: { ListPicker, StackLayout },
   data() {
     return {
       selectedIndex: 0,
@@ -32,7 +30,6 @@ export default {
 
 <style lang="scss" scoped>
 .listpicker {
-width: 150px;
+  width: 150px;
 }
 </style>
-

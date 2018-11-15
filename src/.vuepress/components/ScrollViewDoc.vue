@@ -15,10 +15,8 @@
 </template>
 
 <script>
-import { ScrollView, StackLayout } from "nativescript-vue-web";
 export default {
-  name: "ScrollViewDoc",
-  components: { ScrollView, StackLayout }
+  name: "ScrollViewDoc"
 };
 </script>
 
@@ -34,4 +32,3 @@ export default {
   }
 }
 </style>
-

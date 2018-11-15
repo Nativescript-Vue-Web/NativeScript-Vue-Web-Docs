@@ -8,10 +8,8 @@
 </template>
 
 <script>
-import { StackLayout, Label } from "nativescript-vue-web";
 export default {
-  name: "StackLayoutHorizontalDoc",
-  components: { StackLayout, Label }
+  name: "StackLayoutHorizontalDoc"
 };
 </script>
 

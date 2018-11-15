@@ -18,32 +18,12 @@
 </template>
 
 <script>
-import {
-  Frame,
-  WebView,
-  TextView,
-  ActionBar,
-  GridLayout,
-  Label,
-  StackLayout,
-  Page
-} from "nativescript-vue-web";
 export default {
   name: "FrameDoc",
   data() {
     return {
       textViewInput: "default \n value"
     };
-  },
-  components: {
-    Frame,
-    WebView,
-    TextView,
-    ActionBar,
-    GridLayout,
-    Label,
-    StackLayout,
-    Page
   },
   methods: {
     webViewLoadStarted(event) {

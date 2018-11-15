@@ -5,10 +5,8 @@
 </template>
 
 <script>
-import { Button, StackLayout } from "nativescript-vue-web";
 export default {
   name: "ButtonDoc",
-  components: { Button, StackLayout },
   methods: {
     onButtonTap() {
       console.log("clicked");

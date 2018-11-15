@@ -5,10 +5,8 @@
 </template>
 
 <script>
-import { Img, StackLayout } from "nativescript-vue-web";
 export default {
-  name: "ImageDoc",
-  components: { Img, StackLayout }
+  name: "ImageDoc"
 };
 </script>
 

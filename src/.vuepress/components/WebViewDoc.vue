@@ -1,9 +1,8 @@
 <template>
     <WebView src="<div><h1>WebView</h1></div>" />
 </template>
- 
+
 <script>
-import { WebView } from "nativescript-vue-web";
 export default {
   name: "WebViewDoc",
   methods: {
@@ -13,8 +12,6 @@ export default {
     webViewLoadFinished(event) {
       console.log("WebView Loading finished.");
     }
-  },
-  components: { WebView }
+  }
 };
 </script>
-

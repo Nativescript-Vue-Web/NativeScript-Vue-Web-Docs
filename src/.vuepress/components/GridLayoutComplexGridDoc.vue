@@ -11,9 +11,7 @@
 </template>
 
 <script>
-import { GridLayout, Label } from "nativescript-vue-web";
 export default {
-  name: "StackLayoutDoc",
-  components: { GridLayout }
+  name: "StackLayoutDoc"
 };
 </script>

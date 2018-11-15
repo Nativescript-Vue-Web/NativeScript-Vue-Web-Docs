@@ -6,10 +6,8 @@
 </template>
 
 <script>
-import { ActivityIndicator, StackLayout, Button } from "nativescript-vue-web";
 export default {
   name: "ActivityIndicatorDoc",
-  components: { ActivityIndicator, StackLayout, Button },
   data() {
     return {
       busy: true

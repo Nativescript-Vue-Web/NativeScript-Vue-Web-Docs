@@ -5,10 +5,8 @@
 </template>
 
 <script>
-import { Button, StackLayout } from "nativescript-vue-web";
 export default {
   name: "ActionDialogDoc",
-  components: { Button, StackLayout },
   methods: {
     showActionDialog: function() {
       action("Your message", "Cancel button text", ["Option1", "Option2"]).then(

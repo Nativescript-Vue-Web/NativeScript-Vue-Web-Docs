@@ -12,10 +12,8 @@
 </template>
 
 <script>
-import { StackLayout, Label } from "nativescript-vue-web";
 export default {
-  name: "StackLayoutVerticaltalChildrenDoc",
-  components: { StackLayout, Label }
+  name: "StackLayoutVerticaltalChildrenDoc"
 };
 </script>
 

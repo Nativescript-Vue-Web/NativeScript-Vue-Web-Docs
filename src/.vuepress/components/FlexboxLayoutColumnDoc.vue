@@ -7,10 +7,8 @@
 </template>
 
 <script>
-import { FlexboxLayout, Label } from "nativescript-vue-web";
 export default {
-  name: "FlexboxLayoutColumnDoc",
-  components: { FlexboxLayout, Label }
+  name: "FlexboxLayoutColumnDoc"
 };
 </script>
 

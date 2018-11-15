@@ -3,10 +3,8 @@
 </template>
 
 <script>
-import { Label } from "nativescript-vue-web";
 export default {
-  name: "LabelDoc",
-  components: { Label }
+  name: "LabelDoc"
 };
 </script>
 

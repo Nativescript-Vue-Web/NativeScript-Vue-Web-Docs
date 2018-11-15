@@ -18,21 +18,8 @@
 </template>
 
 <script>
-import {
-  ActionBar,
-  ActionItem,
-  Label,
-  StackLayout
-} from "nativescript-vue-web";
-
 export default {
   name: "ActionBarDoc",
-  components: {
-    ActionBar,
-    ActionItem,
-    Label,
-    StackLayout
-  },
   methods: {
     onTapShare() {
       alert("shared");
