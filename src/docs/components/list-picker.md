@@ -1,6 +1,7 @@
 ---
 sidebarDepth: 0
 ---
+
 # List Picker
 
 This is an overview of the most common usage of `<ListPicker>`.
@@ -19,7 +20,7 @@ This is an overview of the most common usage of `<ListPicker>`.
 
 ```scss
 .listpicker {
-width: 150px;
+  width: 150px;
 }
 ```
 
@@ -27,7 +28,6 @@ width: 150px;
 </DocExampleBox>
 
 `ListPicker` is a UI component that lets the user select a value from a pre-configured list.
-
 
 ## Props
 
@@ -41,7 +41,6 @@ width: 150px;
 | Name                | Web | Mobile |
 | ------------------- | --- | ------ |
 | selectedIndexChange | ✔   | ✔      |
-
 
 ## References
 

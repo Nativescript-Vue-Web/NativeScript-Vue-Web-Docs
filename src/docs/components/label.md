@@ -1,6 +1,7 @@
 ---
 sidebarDepth: 0
 ---
+
 # Label
 
 This is an overview of the most common usage of `<Label>`.
@@ -22,7 +23,6 @@ This is an overview of the most common usage of `<Label>`.
 | -------- | ------- | ------- | --- | ------ |
 | text     | String  |         | ✔   | ✔      |
 | textWrap | Boolean | `false` | ✔   | ✔      |
-
 
 ## References
 

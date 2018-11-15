@@ -1,6 +1,7 @@
 ---
 sidebarDepth: 0
 ---
+
 # Image
 
 This is an overview of the most common usage of `<Image>`.
@@ -10,7 +11,7 @@ Displaying an image relative to the app directory
 <DocExampleBox codeBox="https://codesandbox.io/s/vnxyxz9553">
 
 ```html
-<Img src="~/images/logo.png " stretch="none" />
+<img src="~/images/logo.png " stretch="none" />
 ```
 
 <ImageDoc />
@@ -19,9 +20,11 @@ Displaying an image relative to the app directory
 Displaying an image from a URL
 
 ```html
-<Img src="https://art.nativescript-vue.org/NativeScript-Vue-White-Green.png" stretch="fill" />
+<img
+  src="https://art.nativescript-vue.org/NativeScript-Vue-White-Green.png"
+  stretch="fill"
+/>
 ```
-
 
 ## Props
 
@@ -31,7 +34,6 @@ Displaying an image from a URL
 | tintColor | String                                    |         | ✔   | ✔      |
 | stretch   | `none`, `aspectFill`, `aspectFit`, `fill` | `none`  | ✔   | ✔      |
 | loadMode  | `async`, `sync`                           | `async` | ✔   | ✔      |
-
 
 ## References
 

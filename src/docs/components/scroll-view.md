@@ -1,6 +1,7 @@
 ---
 sidebarDepth: 0
 ---
+
 # Scroll View
 
 This is an overview of the most common usage of `<ScrollView>`.
@@ -48,7 +49,6 @@ This is an overview of the most common usage of `<ScrollView>`.
 | Name   | Web | Mobile |
 | ------ | --- | ------ |
 | scroll | ✔   | ✔      |
-
 
 ## References
 

@@ -1,6 +1,7 @@
 ---
 sidebarDepth: 0
 ---
+
 # Progress
 
 This is an overview of the most common usage of `<Progress>`.
@@ -49,7 +50,6 @@ This is an overview of the most common usage of `<Progress>`.
 | Name        | Web | Mobile |
 | ----------- | --- | ------ |
 | valueChange | ✔   | ✔      |
-
 
 ## References
 

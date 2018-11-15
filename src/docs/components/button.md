@@ -11,6 +11,7 @@ This is an overview of the most common usage of `<Button>`.
 ```html
 <Button text="Button" @tap="onButtonTap" horizontalAlignment="center" />
 ```
+
 ```js
  onButtonTap() {
       console.log("clicked");

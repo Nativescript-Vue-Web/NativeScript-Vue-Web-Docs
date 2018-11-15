@@ -1,6 +1,7 @@
 ---
 sidebarDepth: 0
 ---
+
 # Navigation Button
 
 The `<NavigationButton>` component is a NativeScript abstraction for the Android navigation button, the iOS and web back button.
