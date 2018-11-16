@@ -21,7 +21,7 @@ A frame with a default page
 
 Multiple Frames
 
-<DocExampleBox codeBox="https://codesandbox.io/s/yjmjyny5jx">
+<DocExampleBox codeBox="https://codesandbox.io/s/yjmjyny5jx?module=%2Fsrc%2FApp.vue">
 
 ```html
 <Frame />

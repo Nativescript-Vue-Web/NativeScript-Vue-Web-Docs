@@ -2,11 +2,11 @@
 sidebarDepth: 0
 ---
 
-# Absolute Layout
+# AbsoluteLayout
 
 The `<AbsoluteLayout>` container is the simplest layout container in NativeScript.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/lrv8061359">
+<DocExampleBox codeBox="https://codesandbox.io/s/lrv8061359?module=%2Fsrc%2FApp.vue">
 
 ```html
 <AbsoluteLayout backgroundColor="#3c495e" height="230">

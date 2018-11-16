@@ -2,13 +2,13 @@
 sidebarDepth: 0
 ---
 
-# Search Bar
+# SearchBar
 
 This is an overview of the most common usage of `<SearcBar>`.
 
 `<SearchBar>` is a UI component that provides a user interface for entering search queries and submitting requests to the search provider.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/m7yz90mn6p">
+<DocExampleBox codeBox="https://codesandbox.io/s/m7yz90mn6p?module=%2Fsrc%2FApp.vue">
 ```html
 <SearchBar hint="Search hint" :text="searchPhrase" />
 ```

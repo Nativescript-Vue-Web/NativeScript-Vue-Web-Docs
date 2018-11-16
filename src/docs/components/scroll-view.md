@@ -2,11 +2,11 @@
 sidebarDepth: 0
 ---
 
-# Scroll View
+# ScrollView
 
 This is an overview of the most common usage of `<ScrollView>`.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/y3jzz2v5mv">
+<DocExampleBox codeBox="https://codesandbox.io/s/y3jzz2v5mv?module=%2Fsrc%2FApp.vue">
 
 ```html
 <ScrollView orientation="horizontal">

@@ -2,11 +2,11 @@
 sidebarDepth: 0
 ---
 
-# Segmented Bar
+# SegmentedBar
 
 `<SegmentedBar>` is a UI bar component that displays a set of buttons for discrete selection. Can show text or images.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/8o0v3jyl9">
+<DocExampleBox codeBox="https://codesandbox.io/s/8o0v3jyl9?module=%2Fsrc%2FApp.vue">
 
 ```html
 <SegmentedBar>

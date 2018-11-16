@@ -6,7 +6,7 @@ sidebarDepth: 0
 
 This is an overview of the most common usage of `<Slider>`.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/8l36nz28p8">
+<DocExampleBox codeBox="https://codesandbox.io/s/8l36nz28p8?module=%2Fsrc%2FApp.vue">
 
 ```html
 <Slider :value="80" @valueChange="onValueChanged" />

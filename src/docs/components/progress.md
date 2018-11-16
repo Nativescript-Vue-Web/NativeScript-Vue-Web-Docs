@@ -6,7 +6,7 @@ sidebarDepth: 0
 
 This is an overview of the most common usage of `<Progress>`.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/zkm7o31o6x">
+<DocExampleBox codeBox="https://codesandbox.io/s/zkm7o31o6x?module=%2Fsrc%2FApp.vue">
 
 ```html
 <StackLayout class="progress">

@@ -2,11 +2,11 @@
 sidebarDepth: 0
 ---
 
-# Web View
+# WebView
 
 `<WebView>` is a UI component that lets you show web content in your app. You can pull and show content from a URL or a local HTML file, or you can render static HTML content.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/o4zv94romq">
+<DocExampleBox codeBox="https://codesandbox.io/s/o4zv94romq?module=%2Fsrc%2FApp.vue">
 ```html
 <WebView src="<div><h1>WebView</h1></div>" />
 ```

@@ -2,9 +2,9 @@
 sidebarDepth: 0
 ---
 
-# Prompt Dialog
+# PromptDialog
 
-This is an overview of the most common usage of PromptDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for PromptDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#prompt).
+This is an overview of the most common usage of PromptDialog.
 
 The `prompt()` method shows a dialog with a single-line field for user input.
 
@@ -20,7 +20,7 @@ prompt({
 });
 ```
 
-<DocExampleBox codeBox="https://codesandbox.io/s/oq70yj50q">
+<DocExampleBox codeBox="https://codesandbox.io/s/oq70yj50q?module=%2Fsrc%2FApp.vue">
 
 ```html
 <Button text="Show Login Dialog" width="200" @tap="showLoginDialog" />
@@ -43,3 +43,8 @@ showPromptDialog: function() {
 
 <PromptDialogDoc />
 </DocExampleBox>
+
+## References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/dialogs/prompt/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#prompt)

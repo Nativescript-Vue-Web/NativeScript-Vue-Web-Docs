@@ -2,9 +2,9 @@
 sidebarDepth: 0
 ---
 
-# Action Dialog
+# ActionDialog
 
-This is an overview of the most common usage of ActionDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for ActionDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#action).
+This is an overview of the most common usage of ActionDialog.
 
 The `action()` method is available globally. You can call it anywhere in your app.
 
@@ -16,7 +16,7 @@ action("Your message", "Cancel button text", ["Option1", "Option2"]).then(
 );
 ```
 
-<DocExampleBox codeBox="https://codesandbox.io/s/24oz9vqnlp">
+<DocExampleBox codeBox="https://codesandbox.io/s/24oz9vqnlp?module=%2Fsrc%2FApp.vue">
 
 ```html
   <Button text="Show Action Dialog" width="200" @tap="showActionDialog" />
@@ -34,3 +34,8 @@ action("Your message", "Cancel button text", ["Option1", "Option2"]).then(
 
 <ActionDialogDoc />
 </DocExampleBox>
+
+## References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/dialogs/action/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#action)

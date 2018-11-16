@@ -2,9 +2,9 @@
 sidebarDepth: 0
 ---
 
-# Login Dialog
+# LoginDialog
 
-This is an overview of the most common usage of LoginDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for LoginDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#login).
+This is an overview of the most common usage of LoginDialog.
 
 The `login()` method shows a dialog where the user can provide login credentials.
 
@@ -25,7 +25,7 @@ login({
 });
 ```
 
-<DocExampleBox codeBox="https://codesandbox.io/s/xzxk3w3l0w">
+<DocExampleBox codeBox="https://codesandbox.io/s/xzxk3w3l0w?module=%2Fsrc%2FApp.vue">
 
 ```html
 <Button text="Show Login Dialog" width="200" @tap="showLoginDialog" />
@@ -51,3 +51,8 @@ showConfirmDialog: function() {
 
 <LoginDialogDoc />
 </DocExampleBox>
+
+## References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/dialogs/login/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#login)

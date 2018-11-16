@@ -2,13 +2,13 @@
 sidebarDepth: 0
 ---
 
-# Stack Layout
+# StackLayout
 
-`<StackLayout>` is a layout container that lets you stack the child elements vertically (default) or horizontally.
+The `<StackLayout>` is a layout container that lets you stack the child elements vertically (default) or horizontally.
 
 Default stacking
 
-<DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y">
+<DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y?module=%2Fsrc%2FApp.vue">
 
 ```html
 <StackLayout class="container__layout" backgroundColor="#3c495e">
@@ -23,7 +23,7 @@ Default stacking
 
 Horizontal stacking
 
-<DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y">
+<DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y?module=%2Fsrc%2FApp.vue">
 
 ```html
 <StackLayout orientation="horizontal" backgroundColor="#3c495e">
@@ -38,7 +38,7 @@ Horizontal stacking
 
 Stack layout with horizontally aligned children
 
-<DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y">
+<DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y?module=%2Fsrc%2FApp.vue">
 
 ```html
 <StackLayout backgroundColor="#3c495e">
@@ -58,7 +58,7 @@ Stack layout with horizontally aligned children
 
 Horizontal stack layout with vertically aligned children
 
-<DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y">
+<DocExampleBox codeBox="https://codesandbox.io/s/9yv6r4ok7y?module=%2Fsrc%2FApp.vue">
 
 ```html
 <StackLayout orientation="horizontal" backgroundColor="#3c495e">

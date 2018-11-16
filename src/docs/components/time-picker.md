@@ -2,11 +2,11 @@
 sidebarDepth: 0
 ---
 
-# Time Picker
+# TimePicker
 
 `<TimePicker>` is a UI component that lets users select time.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/jvpprv63n5">
+<DocExampleBox codeBox="https://codesandbox.io/s/jvpprv63n5?module=%2Fsrc%2FApp.vue">
 ```html
 <TimePicker :hour="selectedHour" :minute="selectedMinute" />
 ```

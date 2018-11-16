@@ -2,11 +2,11 @@
 sidebarDepth: 0
 ---
 
-# Tab View
+# TabView
 
 This is an overview of the most common usage of `<TabView>` and `<TabViewItem>`.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/30vr9xw6nm">
+<DocExampleBox codeBox="https://codesandbox.io/s/30vr9xw6nm?module=%2Fsrc%2FApp.vue">
 
 ```html
 <TabView :selectedIndex="selectedIndex" @selectedIndexChanged="changed">

@@ -2,9 +2,9 @@
 sidebarDepth: 0
 ---
 
-# Confirm Dialog
+# ConfirmDialog
 
-This is an overview of the most common usage of ConfirmDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for ConfirmDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#confirm).
+This is an overview of the most common usage of ConfirmDialog.
 
 The `confirm()` method shows a confirmation message and Cancel and OK buttons.
 
@@ -14,7 +14,7 @@ confirm("Your message").then(result => {
 });
 ```
 
-<DocExampleBox codeBox="https://codesandbox.io/s/m7xmj8xnxj">
+<DocExampleBox codeBox="https://codesandbox.io/s/m7xmj8xnxj?module=%2Fsrc%2FApp.vue">
 
 ```html
 <Button text="Show Confirm Dialog" width="200" @tap="showConfirmDialog" />
@@ -29,3 +29,8 @@ showConfirmDialog: function() {
 
 <ConfirmDialogDoc />
 </DocExampleBox>
+
+## References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/dialogs/confirm/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#confirm)

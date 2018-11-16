@@ -2,7 +2,7 @@
 sidebarDepth: 0
 ---
 
-# Text Field
+# TextField
 
 This is an overview of the most common usage of `<TextField>`.
 
@@ -21,7 +21,7 @@ hint="This is placeholder"
 @textChange="textFieldtextChange" />
 ```
 
-<DocExampleBox codeBox="https://codesandbox.io/s/l764j9p8pl">
+<DocExampleBox codeBox="https://codesandbox.io/s/l764j9p8pl?module=%2Fsrc%2FApp.vue">
 
 ```html
 <StackLayout>

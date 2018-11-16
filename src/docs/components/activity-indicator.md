@@ -2,14 +2,14 @@
 sidebarDepth: 0
 ---
 
-# Activity Indicator
+# ActivityIndicator
 
 This is an overview of the most common usage of `<ActivityIndicator>`.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/l52zmow45q">
+<DocExampleBox codeBox="https://codesandbox.io/s/l52zmow45q?module=%2Fsrc%2FApp.vue">
 
 ```html
-<ActivityIndicator busy="true" @busyChange="onBusyChanged" />
+<ActivityIndicator :busy="true" @busyChange="onBusyChanged" />
 ```
 
 ```js

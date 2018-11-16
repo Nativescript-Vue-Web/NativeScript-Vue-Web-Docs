@@ -2,11 +2,11 @@
 sidebarDepth: 0
 ---
 
-# Navigation Button
+# NavigationButton
 
 The `<NavigationButton>` component is a NativeScript abstraction for the Android navigation button, the iOS and web back button.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/9y51w9oj54">
+<DocExampleBox codeBox="https://codesandbox.io/s/9y51w9oj54?module=%2Fsrc%2FApp.vue">
 
 ```html
 <ActionBar title="My App">

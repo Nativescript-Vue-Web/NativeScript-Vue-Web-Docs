@@ -2,13 +2,13 @@
 sidebarDepth: 0
 ---
 
-# Flexbox Layout
+# FlexboxLayout
 
 The `<FlexboxLayout>` helps to adjust child components both horizontally and vertically.
 
 The following example creates a row of three equally-sized elements that span across the entire height of the screen.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/y7k675mwx9">
+<DocExampleBox codeBox="https://codesandbox.io/s/y7k675mwx9?module=%2Fsrc%2FApp.vue">
 
 ```html
 <FlexboxLayout class="flexbox" backgroundColor="#3c495e">

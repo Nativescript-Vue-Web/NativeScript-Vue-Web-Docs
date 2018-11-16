@@ -2,11 +2,11 @@
 sidebarDepth: 0
 ---
 
-# Html View
+# HtmlView
 
 This is an overview of the most common usage of `<HtmlView>`.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/4ro87o5m0x">
+<DocExampleBox codeBox="https://codesandbox.io/s/4ro87o5m0x?module=%2Fsrc%2FApp.vue">
 
 ```html
 <HtmlView html="<div><h1>HtmlView</h1></div>" />

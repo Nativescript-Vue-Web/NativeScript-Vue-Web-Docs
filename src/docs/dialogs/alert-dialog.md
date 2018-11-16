@@ -2,9 +2,9 @@
 sidebarDepth: 0
 ---
 
-# Alert Dialog
+# AlertDialog
 
-This is an overview of the most common usage of AlertDialog. For more information about the available properties, methods, or events, head over to [the complete API documentation for AlertDialog](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#alert).
+This is an overview of the most common usage of AlertDialog.
 
 The `alert()` method shows a message and an OK button. Use it to show information and notifications that do not require an action from the user.
 
@@ -14,7 +14,7 @@ alert("Your message").then(() => {
 });
 ```
 
-<DocExampleBox codeBox="https://codesandbox.io/s/m8x5q5njx">
+<DocExampleBox codeBox="https://codesandbox.io/s/m8x5q5njx?module=%2Fsrc%2FApp.vue">
 
 ```html
   <Button text="Show Alert Dialog" width="200" @tap="showAlertDialog" />
@@ -30,3 +30,8 @@ alert("Your message").then(() => {
 
 <AlertDialogDoc />
 </DocExampleBox>
+
+## References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/dialogs/alert/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_dialogs_#alert)

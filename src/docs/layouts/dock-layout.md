@@ -2,11 +2,11 @@
 sidebarDepth: 0
 ---
 
-# Dock Layout
+# DockLayout
 
 The `<DockLayout>` is a layout container that lets you dock child elements to the sides or the center of the layout.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/1zlq9x6954">
+<DocExampleBox codeBox="https://codesandbox.io/s/1zlq9x6954?module=%2Fsrc%2FApp.vue">
 
 ```html
 <DockLayout :stretchLastChild="false" backgroundColor="#3c495e" class="container">

@@ -6,7 +6,7 @@ sidebarDepth: 0
 
 This is an overview of the most common usage of `<Label>`.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/lrn8qy0yv9">
+<DocExampleBox codeBox="https://codesandbox.io/s/lrn8qy0yv9?module=%2Fsrc%2FApp.vue">
 
 ```html
 <Label text="Label" />

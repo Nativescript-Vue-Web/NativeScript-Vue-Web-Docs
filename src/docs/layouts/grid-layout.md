@@ -2,13 +2,13 @@
 sidebarDepth: 0
 ---
 
-# Grid Layout
+# GridLayout
 
 This is an overview of the most common usage of GridLayout.
 `GridLayout` is a layout container that lets you arrange its child in a table-like manner.
 The following example creates a simple 2-by-2 grid with fixed column widths and row heights.
 
-<DocExampleBox codeBox="https://codesandbox.io/s/l9083jq48q">
+<DocExampleBox codeBox="https://codesandbox.io/s/l9083jq48q?module=%2Fsrc%2FApp.vue">
 
 ```html
 <GridLayout class="grid" width="200" height="220" columns="115, 115" rows="115, 115">

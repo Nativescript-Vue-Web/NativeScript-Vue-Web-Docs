@@ -18,7 +18,7 @@ This is an overview of the most common usage of `<Switch>`.
 <Switcher v-model="itemEnabled" />
 ```
 
-<DocExampleBox codeBox="https://codesandbox.io/s/p7wyk8xl3x">
+<DocExampleBox codeBox="https://codesandbox.io/s/p7wyk8xl3x?module=%2Fsrc%2FApp.vue">
 
 ```html
 <Switcher
