@@ -21,7 +21,7 @@ module.exports = {
         {
           title: "Utilities",
           collapsable: false,
-          children: []
+          children: ["utilities/v-template", "utilities/v-view"]
         },
         {
           title: "Layouts",

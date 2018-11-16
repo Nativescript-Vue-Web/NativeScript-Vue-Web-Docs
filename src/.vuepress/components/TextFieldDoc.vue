@@ -1,14 +1,17 @@
 <template>
-    <TextField
-      v-model="textFieldInput"
-      @textChange="textFieldOnChange"
-      @input="textFieldOnInput"
-      @focus="textFieldOnFocus"
-      @blur="textFieldOnBlur"
-      @returnPress="textFieldOnReturnPress"
-      :editable="true"
-      keyboardType="email"
-    />
+    <StackLayout>
+      <TextField
+        v-model="textFieldInput"
+        @textChange="textFieldOnChange"
+        @input="textFieldOnInput"
+        @focus="textFieldOnFocus"
+        @blur="textFieldOnBlur"
+        @returnPress="textFieldOnReturnPress"
+        :editable="true"
+        keyboardType="email"
+      />
+      <Label style="margin-top: 15px; font-weight: bold" text="Textfield value: " /><Label :text="textFieldInput" />
+    </StackLayout>
 </template>
 
 <script>

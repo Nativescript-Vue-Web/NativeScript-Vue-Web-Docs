@@ -24,16 +24,19 @@ hint="This is placeholder"
 <DocExampleBox codeBox="https://codesandbox.io/s/l764j9p8pl">
 
 ```html
-<TextField
-      v-model="textFieldInput"
-      @textChange="textFieldOnChange"
-      @input="textFieldOnInput"
-      @focus="textFieldOnFocus"
-      @blur="textFieldOnBlur"
-      @returnPress="textFieldOnReturnPress"
-      :editable="true"
-      keyboardType="email"
-    />
+<StackLayout>
+  <TextField
+    v-model="textFieldInput"
+    @textChange="textFieldOnChange"
+    @input="textFieldOnInput"
+    @focus="textFieldOnFocus"
+    @blur="textFieldOnBlur"
+    @returnPress="textFieldOnReturnPress"
+    :editable="true"
+    keyboardType="email"
+  />
+  <Label style="margin-top: 15px; font-weight: bold" text="Textfield value: " /><Label :text="textFieldInput" />
+</StackLayout>
 ```
 
 ```js

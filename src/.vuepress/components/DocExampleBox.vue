@@ -86,12 +86,18 @@ export default {
   background-color: #ffffff;
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
 
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+
   &__header {
     background-color: #2d3750;
     color: #fff;
     font-size: 20px;
     padding: 10px 10px;
     display: flex;
+
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 
     &__title {
       flex: 1;

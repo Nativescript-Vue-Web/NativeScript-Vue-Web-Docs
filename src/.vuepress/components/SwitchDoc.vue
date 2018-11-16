@@ -1,7 +1,5 @@
 <template>
     <Switcher
-      width="75"
-      height="75"
       v-model="value"
       @checkedChange="switchValueChange"
     />
