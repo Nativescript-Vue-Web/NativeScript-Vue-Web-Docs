@@ -690,7 +690,81 @@ Displaying an image from a URL
 
 ### SearchBar
 
+> This is an overview of the most common usage of SearchBar.
+
+> `<SearchBar>` is a UI component that provides a user interface for entering search queries and submitting requests to the search provider.
+
+```html
+<SearchBar hint="Search hint" :text="searchPhrase" @textChange="onTextChanged" @submit="onSubmit" />
+```
+
+> `<SearchBar>` provides two-way data binding using v-model.
+
+```html
+<SearchBar v-model="searchQuery" />
+```
+
+#### Props
+
+| Name                     | Type   | Default | Web | Mobile |
+| ------------------------ | ------ | ------- | --- | ------ |
+| hint                     | String |         | ✔   | ✔      |
+| text                     | String |         | ✔   | ✘      |
+| textFieldBackgroundColor | String |         | ✔   | ✔      |
+| textFieldHintColor       | String |         | ✘   | ✔      |
+
+#### Events
+
+| Name       | Web | Mobile |
+| ---------- | --- | ------ |
+| textChange | ✔   | ✔      |
+| submit     | ✔   | ✔      |
+| clear      | ✔   | ✔      |
+
+#### References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/search-bar/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_search_bar_.searchbar)
+
+<iframe src="https://codesandbox.io/embed/m7yz90mn6p" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### SegmentedBar
+
+> `<SegmentedBar>` is a UI bar component that displays a set of buttons for discrete selection. Can show text or images.
+
+```html
+<SegmentedBar>
+  <SegmentedBarItem title="Segment 1"/>
+  <SegmentedBarItem title="Segment 2"/>
+  <SegmentedBarItem title="Segment 3"/>
+</SegmentedBar>
+```
+
+`<SegmentedBar>` provides two-way data binding using v-model.
+
+```html
+<SegmentedBar v-model="selectedIndex" :items="items" @selectedIndexChanged="changed" />
+```
+
+#### Props
+
+| Name          | Type          | Default | Web | Mobile |
+| ------------- | ------------- | ------- | --- | ------ |
+| items         | Array<String> |         | ✔   | ✔      |
+| selectedIndex | Number        |         | ✔   | ✔      |
+
+#### Events
+
+| Name                | Web | Mobile |
+| ------------------- | --- | ------ |
+| selectedIndexChange | ✔   | ✔      |
+
+#### References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/segmented-bar/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/modules/_ui_segmented_bar_)
+
+<iframe src="https://codesandbox.io/embed/8o0v3jyl9?hidenavigation=1&module=%2Fsrc%2FApp.vue" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 ### Slider
 
@@ -944,6 +1018,29 @@ hint="This is placeholder"
 
 ### WebView
 
+> `<WebView>` is a UI component that lets you show web content in your app. You can pull and show content from a URL or a local HTML file, or you can render static HTML content.
+
+```html
+<WebView  src="/html"/>
+```
+
+> Note: If provided src starts with "~/", it will be stripped and new path will be relative to the root "/".
+
+```html
+<WebView src="http://nativescript-vue.org/" />
+```
+
+```html
+<WebView src="<div><h1>Some static HTML</h1></div>" />
+```
+
+#### References
+
+> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/web-view/)
+> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_web_view_.webview)
+
+<iframe src="https://codesandbox.io/embed/o4zv94romq" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### Frame
 
 > `<Frame>` is a UI component used to display `<Page>` elements.
@@ -976,29 +1073,6 @@ hint="This is placeholder"
 > or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_frame_.frame)
 
 <iframe src="https://codesandbox.io/embed/yjmjyny5jx" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
-
-> `<WebView>` is a UI component that lets you show web content in your app. You can pull and show content from a URL or a local HTML file, or you can render static HTML content.
-
-```html
-<WebView  src="/html"/>
-```
-
-> Note: If provided src starts with "~/", it will be stripped and new path will be relative to the root "/".
-
-```html
-<WebView src="http://nativescript-vue.org/" />
-```
-
-```html
-<WebView src="<div><h1>Some static HTML</h1></div>" />
-```
-
-#### References
-
-> For more information about the available properties, methods, or events head over to the complete [NativeScript-Vue Documentation](https://nativescript-vue.org/en/docs/elements/components/web-view/)
-> or [NativeScript Documentation](https://docs.nativescript.org/api-reference/classes/_ui_web_view_.webview)
-
-<iframe src="https://codesandbox.io/embed/o4zv94romq" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 ## Dialogs
 
